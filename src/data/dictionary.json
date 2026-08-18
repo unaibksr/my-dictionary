@@ -943,5 +943,425 @@
     "partOfSpeech": "adjective",
     "definition": "Always doing something or arriving at the correct time.",
     "example": "Phileas Fogg is an extremely punctual man."
+  },
+  {
+    "word": "disgusting",
+    "phonetic": "/dɪsˈɡʌstɪŋ/",
+    "partOfSpeech": "adjective",
+    "definition": "Very unpleasant or horrible.",
+    "example": "The narrator jokes about a disgusting child."
+  },
+  {
+    "word": "adoration",
+    "phonetic": "/ˌædəˈreɪʃən/",
+    "partOfSpeech": "noun",
+    "definition": "Very strong love or admiration for someone.",
+    "example": "Some parents are blinded by adoration for their children."
+  },
+  {
+    "word": "convince",
+    "phonetic": "/kənˈvɪns/",
+    "partOfSpeech": "verb",
+    "definition": "To make someone believe that something is true.",
+    "example": "Some parents convince themselves that their child is a genius."
+  },
+  {
+    "word": "genius",
+    "phonetic": "/ˈdʒiːniəs/",
+    "partOfSpeech": "noun",
+    "definition": "A person with extremely high intelligence or great natural ability.",
+    "example": "Matilda has qualities of genius."
+  },
+  {
+    "word": "brilliance",
+    "phonetic": "/ˈbrɪliəns/",
+    "partOfSpeech": "noun",
+    "definition": "Very great intelligence, skill, or ability.",
+    "example": "Some parents constantly talk about the brilliance of their children."
+  },
+  {
+    "word": "revolting",
+    "phonetic": "/rɪˈvoʊltɪŋ/",
+    "partOfSpeech": "adjective",
+    "definition": "Extremely unpleasant or disgusting.",
+    "example": "The narrator describes some badly behaved children as revolting."
+  },
+  {
+    "word": "offspring",
+    "phonetic": "/ˈɔːfsprɪŋ/",
+    "partOfSpeech": "noun",
+    "definition": "A person's child or children.",
+    "example": "Proud parents often praise their offspring."
+  },
+  {
+    "word": "twaddle",
+    "phonetic": "/ˈtwɑːdəl/",
+    "partOfSpeech": "noun",
+    "definition": "Silly or meaningless talk.",
+    "example": "Teachers sometimes have to listen to twaddle from proud parents."
+  },
+  {
+    "word": "scorcher",
+    "phonetic": "/ˈskɔːrtʃər/",
+    "partOfSpeech": "noun",
+    "definition": "Something very strong, severe, or impressive.",
+    "example": "The narrator imagines writing some real scorchers in school reports."
+  },
+  {
+    "word": "doting",
+    "phonetic": "/ˈdoʊtɪŋ/",
+    "partOfSpeech": "adjective",
+    "definition": "Showing too much love and admiration for someone.",
+    "example": "Doting parents may think their child can do nothing wrong."
+  },
+  {
+    "word": "lyrical",
+    "phonetic": "/ˈlɪrɪkəl/",
+    "partOfSpeech": "adjective",
+    "definition": "Expressing thoughts or feelings in a beautiful or imaginative way.",
+    "example": "The narrator imagines becoming lyrical while writing a school report."
+  },
+  {
+    "word": "curious",
+    "phonetic": "/ˈkjʊriəs/",
+    "partOfSpeech": "adjective",
+    "definition": "Strange, unusual, or interesting.",
+    "example": "The narrator mentions a curious fact about grasshoppers."
+  },
+  {
+    "word": "abdomen",
+    "phonetic": "/ˈæbdəmən/",
+    "partOfSpeech": "noun",
+    "definition": "The part of the body between the chest and the hips.",
+    "example": "A grasshopper has hearing organs on the sides of its abdomen."
+  },
+  {
+    "word": "delve",
+    "phonetic": "/delv/",
+    "partOfSpeech": "verb",
+    "definition": "To examine or study something more deeply.",
+    "example": "The narrator decides to delve deeper into natural history."
+  },
+  {
+    "word": "periodical",
+    "phonetic": "/ˌpɪriˈɑːdɪkəl/",
+    "partOfSpeech": "adjective",
+    "definition": "Happening again after a regular period of time.",
+    "example": "The narrator talks about the periodical cicada."
+  },
+  {
+    "word": "grub",
+    "phonetic": "/ɡrʌb/",
+    "partOfSpeech": "noun",
+    "definition": "A young insect that looks like a small worm.",
+    "example": "The cicada spends several years as a grub underground."
+  },
+  {
+    "word": "emerge",
+    "phonetic": "/ɪˈmɜːrdʒ/",
+    "partOfSpeech": "verb",
+    "definition": "To come out from somewhere or become visible.",
+    "example": "The insect eventually emerges from underground."
+  },
+  {
+    "word": "chrysalis",
+    "phonetic": "/ˈkrɪsəlɪs/",
+    "partOfSpeech": "noun",
+    "definition": "A hard covering in which some insects develop before becoming adults.",
+    "example": "The narrator compares a student to an insect inside a chrysalis."
+  },
+  {
+    "word": "poisonous",
+    "phonetic": "/ˈpɔɪzənəs/",
+    "partOfSpeech": "adjective",
+    "definition": "Containing poison, or very harmful and unpleasant.",
+    "example": "The narrator imagines writing about a particularly poisonous little girl."
+  },
+  {
+    "word": "glacial",
+    "phonetic": "/ˈɡleɪʃəl/",
+    "partOfSpeech": "adjective",
+    "definition": "Extremely cold or showing very little warmth or emotion.",
+    "example": "The girl's beauty is jokingly described as glacial."
+  },
+  {
+    "word": "surface",
+    "phonetic": "/ˈsɜːrfɪs/",
+    "partOfSpeech": "noun",
+    "definition": "The outside or top part of something.",
+    "example": "An iceberg has much more below the surface."
+  },
+  {
+    "word": "stinkers",
+    "phonetic": "/ˈstɪŋkərz/",
+    "partOfSpeech": "noun",
+    "definition": "People, especially children, who behave very badly.",
+    "example": "The narrator calls badly behaved pupils stinkers."
+  },
+  {
+    "word": "occasionally",
+    "phonetic": "/əˈkeɪʒənəli/",
+    "partOfSpeech": "adverb",
+    "definition": "Sometimes, but not often.",
+    "example": "Occasionally, some parents show very little interest in their children."
+  },
+  {
+    "word": "opposite",
+    "phonetic": "/ˈɑːpəzɪt/",
+    "partOfSpeech": "adjective",
+    "definition": "Completely different from something else.",
+    "example": "Some parents take the opposite approach to doting parents."
+  },
+  {
+    "word": "scab",
+    "phonetic": "/skæb/",
+    "partOfSpeech": "noun",
+    "definition": "A dry covering that forms over a cut or wound while it heals.",
+    "example": "Matilda's parents treat her as if she were an unwanted scab."
+  },
+  {
+    "word": "bunions",
+    "phonetic": "/ˈbʌnjənz/",
+    "partOfSpeech": "noun",
+    "definition": "Painful hard swellings near the base of the big toe.",
+    "example": "The narrator compares badly treated children to scabs and bunions."
+  },
+  {
+    "word": "extraordinary",
+    "phonetic": "/ɪkˈstrɔːrdəneri/",
+    "partOfSpeech": "adjective",
+    "definition": "Very unusual or much better than normal.",
+    "example": "Matilda is an extraordinary child."
+  },
+  {
+    "word": "sensitive",
+    "phonetic": "/ˈsensətɪv/",
+    "partOfSpeech": "adjective",
+    "definition": "Quick to notice or feel things and easily affected by them.",
+    "example": "Matilda is both sensitive and brilliant."
+  },
+  {
+    "word": "brilliant",
+    "phonetic": "/ˈbrɪliənt/",
+    "partOfSpeech": "adjective",
+    "definition": "Extremely clever or talented.",
+    "example": "Matilda is a brilliant young girl."
+  },
+  {
+    "word": "nimble",
+    "phonetic": "/ˈnɪmbəl/",
+    "partOfSpeech": "adjective",
+    "definition": "Quick and clever in movement or thought.",
+    "example": "Matilda has a very nimble mind."
+  },
+  {
+    "word": "ability",
+    "phonetic": "/əˈbɪləti/",
+    "partOfSpeech": "noun",
+    "definition": "The skill or power to do something.",
+    "example": "Matilda's ability to learn should have been obvious."
+  },
+  {
+    "word": "obvious",
+    "phonetic": "/ˈɑːbviəs/",
+    "partOfSpeech": "adjective",
+    "definition": "Easy to see, notice, or understand.",
+    "example": "Matilda's intelligence should have been obvious to her parents."
+  },
+  {
+    "word": "half-witted",
+    "phonetic": "/ˌhæf ˈwɪtɪd/",
+    "partOfSpeech": "adjective",
+    "definition": "Very foolish or not very intelligent.",
+    "example": "Even half-witted parents should have noticed Matilda's ability."
+  },
+  {
+    "word": "gormless",
+    "phonetic": "/ˈɡɔːrmləs/",
+    "partOfSpeech": "adjective",
+    "definition": "Very foolish and lacking good sense.",
+    "example": "Mr and Mrs Wormwood are described as gormless."
+  },
+  {
+    "word": "applauding",
+    "phonetic": "/əˈplɔːdɪŋ/",
+    "partOfSpeech": "verb",
+    "definition": "Showing approval or praise, often by clapping.",
+    "example": "Instead of applauding Matilda, her parents complain about her."
+  },
+  {
+    "word": "chatterbox",
+    "phonetic": "/ˈtʃætərbɑːks/",
+    "partOfSpeech": "noun",
+    "definition": "A person who talks a lot.",
+    "example": "Matilda's parents call her a noisy chatterbox."
+  },
+  {
+    "word": "hankering",
+    "phonetic": "/ˈhæŋkərɪŋ/",
+    "partOfSpeech": "noun",
+    "definition": "A strong desire to have or do something.",
+    "example": "Matilda develops a hankering for books."
+  },
+  {
+    "word": "enlightened",
+    "phonetic": "/ɪnˈlaɪtənd/",
+    "partOfSpeech": "adjective",
+    "definition": "Having good knowledge and sensible ideas.",
+    "example": "The narrator jokingly calls the Wormwood home an enlightened household."
+  },
+  {
+    "word": "recipes",
+    "phonetic": "/ˈresəpiz/",
+    "partOfSpeech": "noun",
+    "definition": "Instructions explaining how to prepare food.",
+    "example": "Matilda learns all the recipes in the cooking book."
+  },
+  {
+    "word": "spoiled",
+    "phonetic": "/spɔɪld/",
+    "partOfSpeech": "adjective",
+    "definition": "Used to getting whatever one wants and therefore behaving badly.",
+    "example": "Mr Wormwood says Matilda is getting spoiled."
+  },
+  {
+    "word": "refused",
+    "phonetic": "/rɪˈfjuːzd/",
+    "partOfSpeech": "verb",
+    "definition": "Said no to something or would not agree to do it.",
+    "example": "Matilda's father refused to buy her a book."
+  },
+  {
+    "word": "librarian",
+    "phonetic": "/laɪˈbreriən/",
+    "partOfSpeech": "noun",
+    "definition": "A person who works in and helps manage a library.",
+    "example": "Mrs Phelps is the librarian Matilda meets."
+  },
+  {
+    "word": "unaccompanied",
+    "phonetic": "/ˌʌnəˈkʌmpənid/",
+    "partOfSpeech": "adjective",
+    "definition": "Without another person coming with you.",
+    "example": "Mrs Phelps is surprised to see such a young girl unaccompanied by a parent."
+  },
+  {
+    "word": "nevertheless",
+    "phonetic": "/ˌnevərðəˈles/",
+    "partOfSpeech": "adverb",
+    "definition": "In spite of what was just mentioned.",
+    "example": "Mrs Phelps is surprised, but nevertheless welcomes Matilda."
+  },
+  {
+    "word": "toddle",
+    "phonetic": "/ˈtɑːdəl/",
+    "partOfSpeech": "verb",
+    "definition": "To walk with small, slightly unsteady steps.",
+    "example": "Matilda would toddle down to the library each afternoon."
+  },
+  {
+    "word": "glorious",
+    "phonetic": "/ˈɡlɔːriəs/",
+    "partOfSpeech": "adjective",
+    "definition": "Extremely enjoyable, beautiful, or wonderful.",
+    "example": "Matilda enjoys two glorious hours of reading."
+  },
+  {
+    "word": "cosy",
+    "phonetic": "/ˈkoʊzi/",
+    "partOfSpeech": "adjective",
+    "definition": "Warm, comfortable, and pleasant.",
+    "example": "Matilda reads in a cosy corner of the library."
+  },
+  {
+    "word": "devouring",
+    "phonetic": "/dɪˈvaʊərɪŋ/",
+    "partOfSpeech": "verb",
+    "definition": "Reading or enjoying something very quickly and eagerly.",
+    "example": "Matilda spends hours devouring one book after another."
+  },
+  {
+    "word": "wandering",
+    "phonetic": "/ˈwɑːndərɪŋ/",
+    "partOfSpeech": "verb",
+    "definition": "Moving around without a fixed direction.",
+    "example": "Matilda starts wandering around the library for something new to read."
+  },
+  {
+    "word": "fascination",
+    "phonetic": "/ˌfæsəˈneɪʃən/",
+    "partOfSpeech": "noun",
+    "definition": "A very strong feeling of interest in something.",
+    "example": "Mrs Phelps watches Matilda with fascination."
+  },
+  {
+    "word": "stunned",
+    "phonetic": "/stʌnd/",
+    "partOfSpeech": "adjective",
+    "definition": "Extremely surprised or shocked.",
+    "example": "Mrs Phelps is stunned by Matilda's reading ability."
+  },
+  {
+    "word": "instinctively",
+    "phonetic": "/ɪnˈstɪŋktɪvli/",
+    "partOfSpeech": "adverb",
+    "definition": "Naturally, without having to think carefully first.",
+    "example": "Mrs Phelps instinctively chooses a more difficult book for Matilda."
+  },
+  {
+    "word": "absorbed",
+    "phonetic": "/əbˈzɔːrbd/",
+    "partOfSpeech": "adjective",
+    "definition": "Giving all your attention to something.",
+    "example": "Matilda becomes completely absorbed in her book."
+  },
+  {
+    "word": "cobwebbed",
+    "phonetic": "/ˈkɑːbwebd/",
+    "partOfSpeech": "adjective",
+    "definition": "Covered with old spider webs.",
+    "example": "Matilda reads about Miss Havisham's cobwebbed house."
+  },
+  {
+    "word": "compassionate",
+    "phonetic": "/kəmˈpæʃənət/",
+    "partOfSpeech": "adjective",
+    "definition": "Kind and caring toward someone who needs help.",
+    "example": "Mrs Phelps keeps a compassionate eye on Matilda."
+  },
+  {
+    "word": "formidable",
+    "phonetic": "/ˈfɔːrmɪdəbəl/",
+    "partOfSpeech": "adjective",
+    "definition": "Very impressive because of its size, difficulty, or strength.",
+    "example": "Matilda completes a formidable list of difficult books."
+  },
+  {
+    "word": "achievements",
+    "phonetic": "/əˈtʃiːvmənts/",
+    "partOfSpeech": "noun",
+    "definition": "Things successfully completed through effort or ability.",
+    "example": "Mrs Phelps is amazed by Matilda's achievements."
+  },
+  {
+    "word": "witnessing",
+    "phonetic": "/ˈwɪtnəsɪŋ/",
+    "partOfSpeech": "verb",
+    "definition": "Seeing something happen.",
+    "example": "Anyone witnessing Matilda's reading would be amazed."
+  },
+  {
+    "word": "interfere",
+    "phonetic": "/ˌɪntərˈfɪr/",
+    "partOfSpeech": "verb",
+    "definition": "To become involved in something that is not your responsibility.",
+    "example": "Mrs Phelps decides not to interfere with Matilda's family life."
+  },
+  {
+    "word": "transported",
+    "phonetic": "/trænˈspɔːrtɪd/",
+    "partOfSpeech": "verb",
+    "definition": "Carried or taken from one place to another; in the story, made to feel as if taken somewhere through imagination.",
+    "example": "Books transported Matilda into new worlds."
   }
 ]
