@@ -1,4 +1,4 @@
-import { useMemo, useRef, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import dictionary from './data/dictionary.json'
 
 function buildWords(entries) {
@@ -29,6 +29,23 @@ function App() {
   const [selectedWord, setSelectedWord] = useState(null)
   const touchStart = useRef(null)
 
+  const goBack = () => {
+    setSelectedWord(null)
+    history.back()
+  }
+
+  const openWord = (entry) => {
+    if (selectedWord?.id === entry.id) return
+    setSelectedWord(entry)
+    history.pushState({ word: entry.id }, '')
+  }
+
+  useEffect(() => {
+    const onPop = () => setSelectedWord(null)
+    window.addEventListener('popstate', onPop)
+    return () => window.removeEventListener('popstate', onPop)
+  }, [])
+
   const handleTouchStart = (e) => {
     touchStart.current = {
       x: e.touches[0].clientX,
@@ -43,7 +60,7 @@ function App() {
     const dx = e.changedTouches[0].clientX - start.x
     const dy = e.changedTouches[0].clientY - start.y
     if (dx < -60 && Math.abs(dx) > Math.abs(dy)) {
-      setSelectedWord(null)
+      goBack()
     }
   }
 
@@ -98,7 +115,7 @@ function App() {
                 key={entry.id}
                 type="button"
                 className={`word-card${selectedWord?.id === entry.id ? ' active' : ''}`}
-                onClick={() => setSelectedWord(entry)}
+                onClick={() => openWord(entry)}
               >
                 <span className="word-head">
                   <span className="word">{entry.word}</span>
@@ -133,7 +150,7 @@ function App() {
           onTouchEnd={handleTouchEnd}
         >
           {selectedWord ? (
-            <Detail entry={selectedWord} onBack={() => setSelectedWord(null)} />
+            <Detail entry={selectedWord} onBack={goBack} />
           ) : (
             <div className="empty-detail">
               <svg className="empty-icon" viewBox="0 0 24 24" aria-hidden="true">
