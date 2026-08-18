@@ -558,5 +558,390 @@
     "partOfSpeech": "noun",
     "definition": "The extreme seriousness or terrible nature of an action.",
     "example": "Jack suddenly understood the enormity of killing the piglet."
+  },
+  {
+    "word": "wealthy",
+    "phonetic": "/ˈwelθi/",
+    "partOfSpeech": "adjective",
+    "definition": "Having a lot of money or valuable things.",
+    "example": "Phileas Fogg is a wealthy English gentleman."
+  },
+  {
+    "word": "mysterious",
+    "phonetic": "/mɪˈstɪəriəs/",
+    "partOfSpeech": "adjective",
+    "definition": "Difficult to understand or explain because little is known about it.",
+    "example": "Fogg is a mysterious man because little is known about his past."
+  },
+  {
+    "word": "gentleman",
+    "phonetic": "/ˈdʒentəlmən/",
+    "partOfSpeech": "noun",
+    "definition": "A polite and well-respected man.",
+    "example": "Phileas Fogg is an English gentleman."
+  },
+  {
+    "word": "member",
+    "phonetic": "/ˈmembər/",
+    "partOfSpeech": "noun",
+    "definition": "A person who belongs to a group or organization.",
+    "example": "Fogg is a member of the Reform Club."
+  },
+  {
+    "word": "relative",
+    "phonetic": "/ˈrelətɪv/",
+    "partOfSpeech": "noun",
+    "definition": "A person who belongs to your family.",
+    "example": "Fogg does not appear to have any close relatives."
+  },
+  {
+    "word": "private",
+    "phonetic": "/ˈpraɪvət/",
+    "partOfSpeech": "adjective",
+    "definition": "Not wanting other people to know much about your personal life.",
+    "example": "Fogg is a very quiet and private person."
+  },
+  {
+    "word": "activity",
+    "phonetic": "/ækˈtɪvəti/",
+    "partOfSpeech": "noun",
+    "definition": "Something that a person does.",
+    "example": "One of Fogg's regular activities is reading newspapers."
+  },
+  {
+    "word": "whist",
+    "phonetic": "/wɪst/",
+    "partOfSpeech": "noun",
+    "definition": "A traditional card game played by four people.",
+    "example": "Fogg regularly plays whist at the Reform Club."
+  },
+  {
+    "word": "winnings",
+    "phonetic": "/ˈwɪnɪŋz/",
+    "partOfSpeech": "noun",
+    "definition": "Money that someone wins in a game or competition.",
+    "example": "Fogg gives his winnings to charity."
+  },
+  {
+    "word": "charity",
+    "phonetic": "/ˈtʃærəti/",
+    "partOfSpeech": "noun",
+    "definition": "Help or money given to people who need it.",
+    "example": "Fogg uses some of his money for charity."
+  },
+  {
+    "word": "feature",
+    "phonetic": "/ˈfiːtʃər/",
+    "partOfSpeech": "noun",
+    "definition": "An important part or quality of someone or something.",
+    "example": "Regularity is an important feature of Fogg's personality."
+  },
+  {
+    "word": "personality",
+    "phonetic": "/ˌpɜːrsəˈnæləti/",
+    "partOfSpeech": "noun",
+    "definition": "The qualities and behavior that make a person who they are.",
+    "example": "Fogg has a calm and controlled personality."
+  },
+  {
+    "word": "regularity",
+    "phonetic": "/ˌreɡjəˈlærəti/",
+    "partOfSpeech": "noun",
+    "definition": "The habit of doing things in the same way or at the same time.",
+    "example": "Fogg's life is famous for its perfect regularity."
+  },
+  {
+    "word": "entire",
+    "phonetic": "/ɪnˈtaɪər/",
+    "partOfSpeech": "adjective",
+    "definition": "Whole or complete.",
+    "example": "Fogg's entire life follows an exact timetable."
+  },
+  {
+    "word": "exact",
+    "phonetic": "/ɪɡˈzækt/",
+    "partOfSpeech": "adjective",
+    "definition": "Completely correct and precise, with no difference or mistake.",
+    "example": "Fogg follows an exact daily schedule."
+  },
+  {
+    "word": "timetable",
+    "phonetic": "/ˈtaɪmteɪbəl/",
+    "partOfSpeech": "noun",
+    "definition": "A plan showing the exact times when things should happen.",
+    "example": "Fogg follows the same timetable every day."
+  },
+  {
+    "word": "expects",
+    "phonetic": "/ɪkˈspekts/",
+    "partOfSpeech": "verb",
+    "definition": "Believes that someone should do something or that something should happen.",
+    "example": "Fogg expects everything to happen at the correct time."
+  },
+  {
+    "word": "equally",
+    "phonetic": "/ˈiːkwəli/",
+    "partOfSpeech": "adverb",
+    "definition": "To the same degree or in the same way.",
+    "example": "Fogg expects the people around him to be equally exact."
+  },
+  {
+    "word": "strictness",
+    "phonetic": "/ˈstrɪktnəs/",
+    "partOfSpeech": "noun",
+    "definition": "The quality of demanding that rules are followed exactly.",
+    "example": "Fogg's strictness is shown by the way he treats his servants."
+  },
+  {
+    "word": "dismiss",
+    "phonetic": "/dɪsˈmɪs/",
+    "partOfSpeech": "verb",
+    "definition": "To remove someone from their job.",
+    "example": "Fogg decides to dismiss his servant for making a small mistake."
+  },
+  {
+    "word": "servant",
+    "phonetic": "/ˈsɜːrvənt/",
+    "partOfSpeech": "noun",
+    "definition": "A person who is paid to work in someone's home.",
+    "example": "Passepartout becomes Fogg's new servant."
+  },
+  {
+    "word": "shaving",
+    "phonetic": "/ˈʃeɪvɪŋ/",
+    "partOfSpeech": "noun",
+    "definition": "The act of cutting hair from the face with a razor.",
+    "example": "Fogg expects his shaving water to have the correct temperature."
+  },
+  {
+    "word": "temperature",
+    "phonetic": "/ˈtemprətʃər/",
+    "partOfSpeech": "noun",
+    "definition": "A measurement of how hot or cold something is.",
+    "example": "The shaving water was at the wrong temperature."
+  },
+  {
+    "word": "adventurous",
+    "phonetic": "/ədˈventʃərəs/",
+    "partOfSpeech": "adjective",
+    "definition": "Willing to experience exciting, unusual, or sometimes dangerous things.",
+    "example": "Passepartout has lived an adventurous life."
+  },
+  {
+    "word": "performer",
+    "phonetic": "/pərˈfɔːrmər/",
+    "partOfSpeech": "noun",
+    "definition": "A person who entertains people by acting, singing, dancing, or doing other skills.",
+    "example": "Passepartout once worked as a circus performer."
+  },
+  {
+    "word": "gymnast",
+    "phonetic": "/ˈdʒɪmnæst/",
+    "partOfSpeech": "noun",
+    "definition": "A person trained to perform difficult physical movements.",
+    "example": "Passepartout had worked as a gymnast."
+  },
+  {
+    "word": "fireman",
+    "phonetic": "/ˈfaɪərmən/",
+    "partOfSpeech": "noun",
+    "definition": "A person whose job is to put out fires and rescue people.",
+    "example": "Passepartout had once worked as a fireman."
+  },
+  {
+    "word": "peaceful",
+    "phonetic": "/ˈpiːsfəl/",
+    "partOfSpeech": "adjective",
+    "definition": "Calm and quiet, without trouble or excitement.",
+    "example": "Passepartout wants to live a peaceful life."
+  },
+  {
+    "word": "regular",
+    "phonetic": "/ˈreɡjələr/",
+    "partOfSpeech": "adjective",
+    "definition": "Happening in the same way or at the same time again and again.",
+    "example": "Passepartout wants a quiet and regular life."
+  },
+  {
+    "word": "master",
+    "phonetic": "/ˈmɑːstər/",
+    "partOfSpeech": "noun",
+    "definition": "A person who employs and gives instructions to a servant.",
+    "example": "Passepartout believes Fogg will be the perfect master."
+  },
+  {
+    "word": "accept",
+    "phonetic": "/əkˈsept/",
+    "partOfSpeech": "verb",
+    "definition": "To agree to take or receive something or someone.",
+    "example": "Fogg accepts Passepartout as his new servant."
+  },
+  {
+    "word": "conversation",
+    "phonetic": "/ˌkɑːnvərˈseɪʃən/",
+    "partOfSpeech": "noun",
+    "definition": "A talk between two or more people.",
+    "example": "Fogg notices Passepartout's watch during their conversation."
+  },
+  {
+    "word": "notice",
+    "phonetic": "/ˈnoʊtɪs/",
+    "partOfSpeech": "verb",
+    "definition": "To see or become aware of something.",
+    "example": "Fogg notices that Passepartout's watch is slow."
+  },
+  {
+    "word": "seriously",
+    "phonetic": "/ˈsɪriəsli/",
+    "partOfSpeech": "adverb",
+    "definition": "In a careful and important way, not as a joke.",
+    "example": "Fogg takes time very seriously."
+  },
+  {
+    "word": "introduce",
+    "phonetic": "/ˌɪntrəˈduːs/",
+    "partOfSpeech": "verb",
+    "definition": "To present someone or something for the first time.",
+    "example": "The chapter introduces Phileas Fogg."
+  },
+  {
+    "word": "describe",
+    "phonetic": "/dɪˈskraɪb/",
+    "partOfSpeech": "verb",
+    "definition": "To explain what someone or something is like.",
+    "example": "The chapter describes Fogg's unusual daily life."
+  },
+  {
+    "word": "routine",
+    "phonetic": "/ruːˈtiːn/",
+    "partOfSpeech": "noun",
+    "definition": "The usual things a person does regularly.",
+    "example": "Fogg follows the same daily routine."
+  },
+  {
+    "word": "establish",
+    "phonetic": "/ɪˈstæblɪʃ/",
+    "partOfSpeech": "verb",
+    "definition": "To make something clear, known, or firmly set.",
+    "example": "The first chapter establishes Fogg's exact routine."
+  },
+  {
+    "word": "arrive",
+    "phonetic": "/əˈraɪv/",
+    "partOfSpeech": "verb",
+    "definition": "To reach a place.",
+    "example": "Passepartout arrives at Fogg's house to begin his new job."
+  },
+  {
+    "word": "importance",
+    "phonetic": "/ɪmˈpɔːrtəns/",
+    "partOfSpeech": "noun",
+    "definition": "The quality of being valuable or having a strong effect.",
+    "example": "The chapter shows the importance of time in Fogg's life."
+  },
+  {
+    "word": "establishes",
+    "phonetic": "/ɪˈstæblɪʃɪz/",
+    "partOfSpeech": "verb",
+    "definition": "Makes an idea or fact clear and certain.",
+    "example": "Chapter 1 establishes the differences between Fogg and Passepartout."
+  },
+  {
+    "word": "contrast",
+    "phonetic": "/ˈkɑːntræst/",
+    "partOfSpeech": "noun",
+    "definition": "A clear difference between two people or things.",
+    "example": "There is a strong contrast between Fogg and Passepartout."
+  },
+  {
+    "word": "controlled",
+    "phonetic": "/kənˈtroʊld/",
+    "partOfSpeech": "adjective",
+    "definition": "Calm and able to keep feelings or actions under control.",
+    "example": "Fogg is calm and controlled."
+  },
+  {
+    "word": "mechanical",
+    "phonetic": "/məˈkænɪkəl/",
+    "partOfSpeech": "adjective",
+    "definition": "Acting like a machine, following the same pattern without much emotion.",
+    "example": "Fogg's exact habits make him seem almost mechanical."
+  },
+  {
+    "word": "lively",
+    "phonetic": "/ˈlaɪvli/",
+    "partOfSpeech": "adjective",
+    "definition": "Full of energy and excitement.",
+    "example": "Passepartout is more lively than Fogg."
+  },
+  {
+    "word": "emotional",
+    "phonetic": "/ɪˈmoʊʃənəl/",
+    "partOfSpeech": "adjective",
+    "definition": "Showing feelings strongly.",
+    "example": "Passepartout is more emotional than his calm master."
+  },
+  {
+    "word": "nature",
+    "phonetic": "/ˈneɪtʃər/",
+    "partOfSpeech": "noun",
+    "definition": "A person's natural character or usual way of behaving.",
+    "example": "Passepartout is adventurous by nature."
+  },
+  {
+    "word": "extremely",
+    "phonetic": "/ɪkˈstriːmli/",
+    "partOfSpeech": "adverb",
+    "definition": "To a very great degree.",
+    "example": "Fogg is extremely quiet and private."
+  },
+  {
+    "word": "perfect",
+    "phonetic": "/ˈpɜːrfɪkt/",
+    "partOfSpeech": "adjective",
+    "definition": "Exactly right or without any mistake.",
+    "example": "Fogg follows his daily routine with perfect regularity."
+  },
+  {
+    "word": "adventure",
+    "phonetic": "/ədˈventʃər/",
+    "partOfSpeech": "noun",
+    "definition": "An exciting or unusual experience, sometimes involving danger.",
+    "example": "Passepartout is tired of adventure and wants a quiet life."
+  },
+  {
+    "word": "background",
+    "phonetic": "/ˈbækɡraʊnd/",
+    "partOfSpeech": "noun",
+    "definition": "A person's past life, experience, or history.",
+    "example": "Passepartout has an unusual and adventurous background."
+  },
+  {
+    "word": "regularity",
+    "phonetic": "/ˌreɡjəˈlærəti/",
+    "partOfSpeech": "noun",
+    "definition": "The state of doing things at fixed or repeated times.",
+    "example": "Passepartout is attracted by the regularity of Fogg's life."
+  },
+  {
+    "word": "strict",
+    "phonetic": "/strɪkt/",
+    "partOfSpeech": "adjective",
+    "definition": "Demanding that rules or instructions are followed exactly.",
+    "example": "Fogg is very strict about time."
+  },
+  {
+    "word": "exactness",
+    "phonetic": "/ɪɡˈzæktnəs/",
+    "partOfSpeech": "noun",
+    "definition": "The quality of being completely correct and precise.",
+    "example": "Fogg's exactness can be seen in every part of his daily life."
+  },
+  {
+    "word": "punctual",
+    "phonetic": "/ˈpʌŋktʃuəl/",
+    "partOfSpeech": "adjective",
+    "definition": "Always doing something or arriving at the correct time.",
+    "example": "Phileas Fogg is an extremely punctual man."
   }
 ]

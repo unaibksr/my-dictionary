@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { useMemo, useRef, useState } from 'react'
 import dictionary from './data/dictionary.json'
 
 function buildWords(entries) {
@@ -27,6 +27,25 @@ const words = buildWords(dictionary)
 function App() {
   const [query, setQuery] = useState('')
   const [selectedWord, setSelectedWord] = useState(null)
+  const touchStart = useRef(null)
+
+  const handleTouchStart = (e) => {
+    touchStart.current = {
+      x: e.touches[0].clientX,
+      y: e.touches[0].clientY,
+    }
+  }
+
+  const handleTouchEnd = (e) => {
+    const start = touchStart.current
+    touchStart.current = null
+    if (!start || !selectedWord) return
+    const dx = e.changedTouches[0].clientX - start.x
+    const dy = e.changedTouches[0].clientY - start.y
+    if (dx < -60 && Math.abs(dx) > Math.abs(dy)) {
+      setSelectedWord(null)
+    }
+  }
 
   const results = useMemo(() => {
     const q = query.trim().toLowerCase()
@@ -108,7 +127,11 @@ function App() {
           )}
         </aside>
 
-        <section className={`detail-pane${selectedWord ? ' open' : ''}`}>
+        <section
+          className={`detail-pane${selectedWord ? ' open' : ''}`}
+          onTouchStart={handleTouchStart}
+          onTouchEnd={handleTouchEnd}
+        >
           {selectedWord ? (
             <Detail entry={selectedWord} onBack={() => setSelectedWord(null)} />
           ) : (
