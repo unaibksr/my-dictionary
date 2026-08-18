@@ -9,7 +9,6 @@ function buildWords(entries) {
       map.set(id, {
         id,
         word: entry.word,
-        phonetic: entry.phonetic,
         senses: [],
       })
     }
@@ -189,7 +188,6 @@ function Detail({ entry, onBack }) {
         </svg>
         Back
       </button>
-      <p className="detail-phonetic">{entry.phonetic}</p>
       <h2 className="detail-word">{entry.word}</h2>
 
       <div className="senses">

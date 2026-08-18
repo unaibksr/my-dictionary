@@ -253,12 +253,6 @@ button {
   height: 20px;
 }
 
-.detail-phonetic {
-  margin: 0;
-  color: var(--accent);
-  font-size: 16px;
-}
-
 .detail-word {
   margin: 0;
   font-size: 40px;

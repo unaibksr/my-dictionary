@@ -1,1365 +1,1170 @@
 [
   {
     "word": "lagoon",
-    "phonetic": "/ləˈɡuːn/",
     "partOfSpeech": "noun",
     "definition": "A small area of sea water separated from the open sea by sand, rocks, or coral.",
     "example": "Ralph walked toward the clear blue lagoon."
   },
   {
     "word": "plastered",
-    "phonetic": "/ˈplɑːstərd/",
     "partOfSpeech": "adjective",
     "definition": "Stuck flat against something.",
     "example": "Ralph's wet hair was plastered to his forehead."
   },
   {
     "word": "clambering",
-    "phonetic": "/ˈklæmbərɪŋ/",
     "partOfSpeech": "verb",
     "definition": "Climbing with difficulty, often using both hands and feet.",
     "example": "The boys were clambering over the rocks."
   },
   {
     "word": "creepers",
-    "phonetic": "/ˈkriːpərz/",
     "partOfSpeech": "noun",
     "definition": "Plants that grow along the ground or climb around trees and other plants.",
     "example": "Thick creepers made it difficult to move through the jungle."
   },
   {
     "word": "undergrowth",
-    "phonetic": "/ˈʌndərɡroʊθ/",
     "partOfSpeech": "noun",
     "definition": "Thick bushes and small plants growing under trees.",
     "example": "Piggy struggled through the thick undergrowth."
   },
   {
     "word": "multitude",
-    "phonetic": "/ˈmʌltɪtuːd/",
     "partOfSpeech": "noun",
     "definition": "A very large number of people or things.",
     "example": "A multitude of raindrops fell from the leaves."
   },
   {
     "word": "pattering",
-    "phonetic": "/ˈpætərɪŋ/",
     "partOfSpeech": "verb",
     "definition": "Making a series of light, quick tapping sounds.",
     "example": "Raindrops came pattering down from the leaves."
   },
   {
     "word": "gesture",
-    "phonetic": "/ˈdʒestʃər/",
     "partOfSpeech": "noun",
     "definition": "A movement of the body that shows an idea or feeling.",
     "example": "Ralph made a quick gesture with his hand."
   },
   {
     "word": "crooks",
-    "phonetic": "/krʊks/",
     "partOfSpeech": "noun",
     "definition": "Bent or curved parts of something.",
     "example": "The crooks of Piggy's knees were scratched by thorns."
   },
   {
     "word": "plump",
-    "phonetic": "/plʌmp/",
     "partOfSpeech": "adjective",
     "definition": "Slightly fat and round in shape.",
     "example": "Piggy had plump knees."
   },
   {
     "word": "lodgments",
-    "phonetic": "/ˈlɑːdʒmənts/",
     "partOfSpeech": "noun",
     "definition": "Places where something can safely rest or be placed.",
     "example": "Piggy searched for safe lodgments for his feet."
   },
   {
     "word": "spectacles",
-    "phonetic": "/ˈspektəkəlz/",
     "partOfSpeech": "noun",
     "definition": "Glasses worn to help a person see clearly.",
     "example": "Piggy looked at Ralph through his thick spectacles."
   },
   {
     "word": "reef",
-    "phonetic": "/riːf/",
     "partOfSpeech": "noun",
     "definition": "A long line of rock or coral near the surface of the sea.",
     "example": "A coral reef surrounded part of the island."
   },
   {
     "word": "startled",
-    "phonetic": "/ˈstɑːrtəld/",
     "partOfSpeech": "adjective",
     "definition": "Suddenly surprised or frightened.",
     "example": "Piggy looked startled when he heard there might be no adults."
   },
   {
     "word": "peering",
-    "phonetic": "/ˈpɪrɪŋ/",
     "partOfSpeech": "verb",
     "definition": "Looking carefully because something is difficult to see.",
     "example": "Ralph was peering at the distant reef."
   },
   {
     "word": "offhand",
-    "phonetic": "/ˌɔːfˈhænd/",
     "partOfSpeech": "adjective",
     "definition": "Casual and showing little interest or concern.",
     "example": "Ralph tried to sound offhand when Piggy followed him."
   },
   {
     "word": "solemnly",
-    "phonetic": "/ˈsɑːləmli/",
     "partOfSpeech": "adverb",
     "definition": "In a serious and calm way.",
     "example": "Ralph solemnly said that there were no grown-ups."
   },
   {
     "word": "ambition",
-    "phonetic": "/æmˈbɪʃən/",
     "partOfSpeech": "noun",
     "definition": "Something that a person strongly wants to achieve or experience.",
     "example": "Ralph was excited because one of his ambitions had come true."
   },
   {
     "word": "jagged",
-    "phonetic": "/ˈdʒæɡɪd/",
     "partOfSpeech": "adjective",
     "definition": "Having rough and sharp edges.",
     "example": "Ralph touched the jagged end of a broken tree trunk."
   },
   {
     "word": "hesitated",
-    "phonetic": "/ˈhezɪteɪtɪd/",
     "partOfSpeech": "verb",
     "definition": "Paused for a short time because of uncertainty.",
     "example": "Piggy hesitated before asking Ralph his name."
   },
   {
     "word": "proffer",
-    "phonetic": "/ˈprɑːfər/",
     "partOfSpeech": "noun",
     "definition": "An offer of something.",
     "example": "Piggy waited for a proffer of friendship from Ralph."
   },
   {
     "word": "acquaintance",
-    "phonetic": "/əˈkweɪntəns/",
     "partOfSpeech": "noun",
     "definition": "A person you know but do not know very closely.",
     "example": "Piggy hoped to make Ralph's acquaintance."
   },
   {
     "word": "vaguely",
-    "phonetic": "/ˈveɪɡli/",
     "partOfSpeech": "adverb",
     "definition": "In a way that is not clear, exact, or strong.",
     "example": "Ralph smiled vaguely and continued walking."
   },
   {
     "word": "contours",
-    "phonetic": "/ˈkɑːntʊrz/",
     "partOfSpeech": "noun",
     "definition": "The outer shape or lines of something.",
     "example": "Pain changed the contours of Piggy's face."
   },
   {
     "word": "foliage",
-    "phonetic": "/ˈfoʊliɪdʒ/",
     "partOfSpeech": "noun",
     "definition": "The leaves of plants and trees.",
     "example": "Piggy crouched among the thick foliage."
   },
   {
     "word": "disentangled",
-    "phonetic": "/ˌdɪsɪnˈtæŋɡəld/",
     "partOfSpeech": "verb",
     "definition": "Freed from something that was twisted or wrapped around it.",
     "example": "Ralph disentangled himself from the branches."
   },
   {
     "word": "cautiously",
-    "phonetic": "/ˈkɔːʃəsli/",
     "partOfSpeech": "adverb",
     "definition": "Carefully in order to avoid danger or problems.",
     "example": "Ralph moved cautiously through the jungle."
   },
   {
     "word": "coarse",
-    "phonetic": "/kɔːrs/",
     "partOfSpeech": "adjective",
     "definition": "Rough rather than smooth or soft.",
     "example": "Coarse grass covered the ground under the palm trees."
   },
   {
     "word": "upheavals",
-    "phonetic": "/ʌpˈhiːvəlz/",
     "partOfSpeech": "noun",
     "definition": "Large or sudden movements that cause great change.",
     "example": "The ground showed upheavals where trees had fallen."
   },
   {
     "word": "decaying",
-    "phonetic": "/dɪˈkeɪɪŋ/",
     "partOfSpeech": "adjective",
     "definition": "Slowly becoming rotten or destroyed.",
     "example": "Decaying coconuts were scattered under the trees."
   },
   {
     "word": "shimmering",
-    "phonetic": "/ˈʃɪmərɪŋ/",
     "partOfSpeech": "adjective",
     "definition": "Shining with a soft light that seems to move.",
     "example": "Ralph looked across the shimmering water."
   },
   {
     "word": "irregular",
-    "phonetic": "/ɪˈreɡjələr/",
     "partOfSpeech": "adjective",
     "definition": "Not even, regular, or having a normal shape.",
     "example": "The reef formed an irregular curve around the lagoon."
   },
   {
     "word": "perspective",
-    "phonetic": "/pərˈspektɪv/",
     "partOfSpeech": "noun",
     "definition": "The way something appears when seen from a particular place.",
     "example": "From Ralph's perspective, the beach seemed endless."
   },
   {
     "word": "prominent",
-    "phonetic": "/ˈprɑːmɪnənt/",
     "partOfSpeech": "adjective",
     "definition": "Easy to notice because it stands out.",
     "example": "Ralph no longer had the prominent stomach of a small child."
   },
   {
     "word": "adolescence",
-    "phonetic": "/ˌædəˈlesəns/",
     "partOfSpeech": "noun",
     "definition": "The period when a child is developing into an adult.",
     "example": "Ralph was approaching adolescence."
   },
   {
     "word": "proclaimed",
-    "phonetic": "/prəˈkleɪmd/",
     "partOfSpeech": "verb",
     "definition": "Showed or announced something clearly.",
     "example": "The mild look in Ralph's eyes proclaimed that he was not cruel."
   },
   {
     "word": "apprehension",
-    "phonetic": "/ˌæprɪˈhenʃən/",
     "partOfSpeech": "noun",
     "definition": "Worry or fear that something bad may happen.",
     "example": "Piggy clasped his hands in apprehension."
   },
   {
     "word": "reluctantly",
-    "phonetic": "/rɪˈlʌktəntli/",
     "partOfSpeech": "adverb",
     "definition": "In an unwilling way.",
     "example": "Piggy reluctantly smiled when Ralph laughed at his nickname."
   },
   {
     "word": "recognition",
-    "phonetic": "/ˌrekəɡˈnɪʃən/",
     "partOfSpeech": "noun",
     "definition": "The act of noticing, accepting, or giving attention to someone or something.",
     "example": "Piggy was pleased to receive some recognition from Ralph."
   },
   {
     "word": "abruptly",
-    "phonetic": "/əˈbrʌptli/",
     "partOfSpeech": "adverb",
     "definition": "Suddenly and unexpectedly.",
     "example": "The smooth beach was abruptly interrupted by a rocky platform."
   },
   {
     "word": "motif",
-    "phonetic": "/moʊˈtiːf/",
     "partOfSpeech": "noun",
     "definition": "A shape, design, or idea that appears repeatedly.",
     "example": "The square shape of the rocks formed a motif in the landscape."
   },
   {
     "word": "granite",
-    "phonetic": "/ˈɡrænɪt/",
     "partOfSpeech": "noun",
     "definition": "A very hard type of natural rock.",
     "example": "The boys climbed onto a platform of pink granite."
   },
   {
     "word": "uncompromisingly",
-    "phonetic": "/ʌnˈkɑːmprəmaɪzɪŋli/",
     "partOfSpeech": "adverb",
     "definition": "In a firm or strong way that does not give way.",
     "example": "The granite platform rose uncompromisingly through the landscape."
   },
   {
     "word": "jetty",
-    "phonetic": "/ˈdʒeti/",
     "partOfSpeech": "noun",
     "definition": "A structure that extends from the land out into water.",
     "example": "The rock formed a natural jetty beside the lagoon."
   },
   {
     "word": "quivering",
-    "phonetic": "/ˈkwɪvərɪŋ/",
     "partOfSpeech": "adjective",
     "definition": "Shaking or moving slightly and quickly.",
     "example": "Quivering reflections from the water moved across the trees."
   },
   {
     "word": "efflorescence",
-    "phonetic": "/ˌefləˈresəns/",
     "partOfSpeech": "noun",
     "definition": "A rich or colorful growth of plants or other natural things.",
     "example": "The water was bright with the efflorescence of tropical plants and coral."
   },
   {
     "word": "enchantment",
-    "phonetic": "/ɪnˈtʃæntmənt/",
     "partOfSpeech": "noun",
     "definition": "A feeling of great pleasure and wonder, almost as if caused by magic.",
     "example": "Ralph felt a sense of enchantment as he explored the island."
   },
   {
     "word": "typhoon",
-    "phonetic": "/taɪˈfuːn/",
     "partOfSpeech": "noun",
     "definition": "A very powerful tropical storm.",
     "example": "A typhoon may have changed the shape of the beach."
   },
   {
     "word": "specious",
-    "phonetic": "/ˈspiːʃəs/",
     "partOfSpeech": "adjective",
     "definition": "Seeming true or good at first but actually being false.",
     "example": "Ralph had been fooled before by the specious appearance of deep water."
   },
   {
     "word": "enviously",
-    "phonetic": "/ˈenviəsli/",
     "partOfSpeech": "adverb",
     "definition": "With a feeling of wanting something another person has.",
     "example": "Piggy watched Ralph swimming enviously."
   },
   {
     "word": "mirage",
-    "phonetic": "/mɪˈrɑːʒ/",
     "partOfSpeech": "noun",
     "definition": "Something that appears real from a distance but is caused by heat or light.",
     "example": "The heat created a mirage above the beach."
   },
   {
     "word": "effulgence",
-    "phonetic": "/ɪˈfʌldʒəns/",
     "partOfSpeech": "noun",
     "definition": "A very bright and powerful light.",
     "example": "The lagoon shone with a blinding effulgence."
   },
   {
     "word": "ill-omened",
-    "phonetic": "/ˌɪl ˈoʊmənd/",
     "partOfSpeech": "adjective",
     "definition": "Suggesting that something bad may happen.",
     "example": "Piggy's ill-omened words worried Ralph."
   },
   {
     "word": "decorous",
-    "phonetic": "/ˈdekərəs/",
     "partOfSpeech": "adjective",
     "definition": "Polite, proper, and well behaved.",
     "example": "Piggy showed decorous excitement when he noticed the shell."
   },
   {
     "word": "conch",
-    "phonetic": "/kɑːŋk/",
     "partOfSpeech": "noun",
     "definition": "A large sea shell that can be blown to make a loud sound.",
     "example": "Ralph blew the conch to call the other boys."
   },
   {
     "word": "phantoms",
-    "phonetic": "/ˈfæntəmz/",
     "partOfSpeech": "noun",
     "definition": "Ghost-like or imagined people, shapes, or images.",
     "example": "The vivid phantoms of Ralph's daydreams filled his mind."
   },
   {
     "word": "fulcrum",
-    "phonetic": "/ˈfʊlkrəm/",
     "partOfSpeech": "noun",
     "definition": "The fixed point that supports something being used as a lever.",
     "example": "Ralph used one hand as a fulcrum to lift the shell."
   },
   {
     "word": "embossed",
-    "phonetic": "/ɪmˈbɔːst/",
     "partOfSpeech": "adjective",
     "definition": "Decorated with a pattern that is raised above the surface.",
     "example": "The conch had a delicate embossed pattern."
   },
   {
     "word": "diaphragm",
-    "phonetic": "/ˈdaɪəfræm/",
     "partOfSpeech": "noun",
     "definition": "A muscle below the lungs that helps a person breathe.",
     "example": "Ralph used his diaphragm to blow strongly into the conch."
   },
   {
     "word": "strident",
-    "phonetic": "/ˈstraɪdənt/",
     "partOfSpeech": "adjective",
     "definition": "Very loud, sharp, and unpleasant to hear.",
     "example": "The conch produced a strident blare."
   },
   {
     "word": "stupendous",
-    "phonetic": "/stuːˈpendəs/",
     "partOfSpeech": "adjective",
     "definition": "Extremely large, impressive, or surprising.",
     "example": "Ralph enjoyed making the stupendous sound of the conch."
   },
   {
     "word": "incredulous",
-    "phonetic": "/ɪnˈkredʒələs/",
     "partOfSpeech": "adjective",
     "definition": "Unable or unwilling to believe something.",
     "example": "The boys looked incredulous when they saw the identical twins."
   },
   {
     "word": "eccentric",
-    "phonetic": "/ɪkˈsentrɪk/",
     "partOfSpeech": "adjective",
     "definition": "Strange or unusual in appearance or behavior.",
     "example": "The choir boys were wearing eccentric clothing for the hot island."
   },
   {
     "word": "intimidated",
-    "phonetic": "/ɪnˈtɪmɪdeɪtɪd/",
     "partOfSpeech": "adjective",
     "definition": "Made to feel frightened or less confident.",
     "example": "Piggy felt intimidated by Jack and the uniformed choir."
   },
   {
     "word": "furtive",
-    "phonetic": "/ˈfɜːrtɪv/",
     "partOfSpeech": "adjective",
     "definition": "Trying to avoid being noticed, usually because of secrecy or fear.",
     "example": "Roger was a quiet and furtive boy."
   },
   {
     "word": "arrogance",
-    "phonetic": "/ˈærəɡəns/",
     "partOfSpeech": "noun",
     "definition": "Behavior that shows you think you are better or more important than others.",
     "example": "Jack's arrogance made him believe he should automatically be chief."
   },
   {
     "word": "acclaim",
-    "phonetic": "/əˈkleɪm/",
     "partOfSpeech": "noun",
     "definition": "Strong public approval or support.",
     "example": "The boys chose Ralph as chief by acclaim."
   },
   {
     "word": "obscurely",
-    "phonetic": "/əbˈskjʊrli/",
     "partOfSpeech": "adverb",
     "definition": "In a way that is not clear or easy to understand.",
     "example": "The boys were obscurely influenced by Ralph's possession of the conch."
   },
   {
     "word": "mortification",
-    "phonetic": "/ˌmɔːrtɪfɪˈkeɪʃən/",
     "partOfSpeech": "noun",
     "definition": "A strong feeling of embarrassment or shame.",
     "example": "Jack's face showed mortification when Ralph was chosen as chief."
   },
   {
     "word": "suffusion",
-    "phonetic": "/səˈfjuːʒən/",
     "partOfSpeech": "noun",
     "definition": "The gradual spreading of a color, light, or feeling over something.",
     "example": "The red suffusion slowly disappeared from Jack's face."
   },
   {
     "word": "expedition",
-    "phonetic": "/ˌekspəˈdɪʃən/",
     "partOfSpeech": "noun",
     "definition": "An organized journey made for a particular purpose.",
     "example": "Ralph, Jack, and Simon went on an expedition to explore the island."
   },
   {
     "word": "humiliation",
-    "phonetic": "/hjuːˌmɪliˈeɪʃən/",
     "partOfSpeech": "noun",
     "definition": "A strong feeling of shame or embarrassment caused by being treated badly.",
     "example": "Piggy felt humiliation after the other boys laughed at his nickname."
   },
   {
     "word": "indignation",
-    "phonetic": "/ˌɪndɪɡˈneɪʃən/",
     "partOfSpeech": "noun",
     "definition": "Anger caused by something that seems unfair or wrong.",
     "example": "Piggy's indignation slowly faded after Ralph apologized."
   },
   {
     "word": "glamour",
-    "phonetic": "/ˈɡlæmər/",
     "partOfSpeech": "noun",
     "definition": "A special feeling of excitement, beauty, or attraction.",
     "example": "The adventure gave the boys a feeling of glamour."
   },
   {
     "word": "crags",
-    "phonetic": "/kræɡz/",
     "partOfSpeech": "noun",
     "definition": "High, steep, and rough rocks.",
     "example": "The boys followed the jagged crags toward the mountain."
   },
   {
     "word": "askew",
-    "phonetic": "/əˈskjuː/",
     "partOfSpeech": "adjective",
     "definition": "Not straight or level; turned to one side.",
     "example": "Broken blocks of rock lay askew on the mountainside."
   },
   {
     "word": "surmounted",
-    "phonetic": "/sərˈmaʊntɪd/",
     "partOfSpeech": "verb",
     "definition": "Was placed or stood on top of something.",
     "example": "The cliff was surmounted by another large block of rock."
   },
   {
     "word": "immured",
-    "phonetic": "/ɪˈmjʊrd/",
     "partOfSpeech": "adjective",
     "definition": "Trapped or completely surrounded inside something.",
     "example": "The boys felt immured in the thick mass of jungle plants."
   },
   {
     "word": "defiles",
-    "phonetic": "/dɪˈfaɪlz/",
     "partOfSpeech": "noun",
     "definition": "Narrow passages between mountains, rocks, or cliffs.",
     "example": "The boys moved through narrow defiles on their way to the top."
   },
   {
     "word": "enormity",
-    "phonetic": "/ɪˈnɔːrməti/",
     "partOfSpeech": "noun",
     "definition": "The extreme seriousness or terrible nature of an action.",
     "example": "Jack suddenly understood the enormity of killing the piglet."
   },
   {
     "word": "wealthy",
-    "phonetic": "/ˈwelθi/",
     "partOfSpeech": "adjective",
     "definition": "Having a lot of money or valuable things.",
     "example": "Phileas Fogg is a wealthy English gentleman."
   },
   {
     "word": "mysterious",
-    "phonetic": "/mɪˈstɪəriəs/",
     "partOfSpeech": "adjective",
     "definition": "Difficult to understand or explain because little is known about it.",
     "example": "Fogg is a mysterious man because little is known about his past."
   },
   {
     "word": "gentleman",
-    "phonetic": "/ˈdʒentəlmən/",
     "partOfSpeech": "noun",
     "definition": "A polite and well-respected man.",
     "example": "Phileas Fogg is an English gentleman."
   },
   {
     "word": "member",
-    "phonetic": "/ˈmembər/",
     "partOfSpeech": "noun",
     "definition": "A person who belongs to a group or organization.",
     "example": "Fogg is a member of the Reform Club."
   },
   {
     "word": "relative",
-    "phonetic": "/ˈrelətɪv/",
     "partOfSpeech": "noun",
     "definition": "A person who belongs to your family.",
     "example": "Fogg does not appear to have any close relatives."
   },
   {
     "word": "private",
-    "phonetic": "/ˈpraɪvət/",
     "partOfSpeech": "adjective",
     "definition": "Not wanting other people to know much about your personal life.",
     "example": "Fogg is a very quiet and private person."
   },
   {
     "word": "activity",
-    "phonetic": "/ækˈtɪvəti/",
     "partOfSpeech": "noun",
     "definition": "Something that a person does.",
     "example": "One of Fogg's regular activities is reading newspapers."
   },
   {
     "word": "whist",
-    "phonetic": "/wɪst/",
     "partOfSpeech": "noun",
     "definition": "A traditional card game played by four people.",
     "example": "Fogg regularly plays whist at the Reform Club."
   },
   {
     "word": "winnings",
-    "phonetic": "/ˈwɪnɪŋz/",
     "partOfSpeech": "noun",
     "definition": "Money that someone wins in a game or competition.",
     "example": "Fogg gives his winnings to charity."
   },
   {
     "word": "charity",
-    "phonetic": "/ˈtʃærəti/",
     "partOfSpeech": "noun",
     "definition": "Help or money given to people who need it.",
     "example": "Fogg uses some of his money for charity."
   },
   {
     "word": "feature",
-    "phonetic": "/ˈfiːtʃər/",
     "partOfSpeech": "noun",
     "definition": "An important part or quality of someone or something.",
     "example": "Regularity is an important feature of Fogg's personality."
   },
   {
     "word": "personality",
-    "phonetic": "/ˌpɜːrsəˈnæləti/",
     "partOfSpeech": "noun",
     "definition": "The qualities and behavior that make a person who they are.",
     "example": "Fogg has a calm and controlled personality."
   },
   {
     "word": "regularity",
-    "phonetic": "/ˌreɡjəˈlærəti/",
     "partOfSpeech": "noun",
     "definition": "The habit of doing things in the same way or at the same time.",
     "example": "Fogg's life is famous for its perfect regularity."
   },
   {
     "word": "entire",
-    "phonetic": "/ɪnˈtaɪər/",
     "partOfSpeech": "adjective",
     "definition": "Whole or complete.",
     "example": "Fogg's entire life follows an exact timetable."
   },
   {
     "word": "exact",
-    "phonetic": "/ɪɡˈzækt/",
     "partOfSpeech": "adjective",
     "definition": "Completely correct and precise, with no difference or mistake.",
     "example": "Fogg follows an exact daily schedule."
   },
   {
     "word": "timetable",
-    "phonetic": "/ˈtaɪmteɪbəl/",
     "partOfSpeech": "noun",
     "definition": "A plan showing the exact times when things should happen.",
     "example": "Fogg follows the same timetable every day."
   },
   {
     "word": "expects",
-    "phonetic": "/ɪkˈspekts/",
     "partOfSpeech": "verb",
     "definition": "Believes that someone should do something or that something should happen.",
     "example": "Fogg expects everything to happen at the correct time."
   },
   {
     "word": "equally",
-    "phonetic": "/ˈiːkwəli/",
     "partOfSpeech": "adverb",
     "definition": "To the same degree or in the same way.",
     "example": "Fogg expects the people around him to be equally exact."
   },
   {
     "word": "strictness",
-    "phonetic": "/ˈstrɪktnəs/",
     "partOfSpeech": "noun",
     "definition": "The quality of demanding that rules are followed exactly.",
     "example": "Fogg's strictness is shown by the way he treats his servants."
   },
   {
     "word": "dismiss",
-    "phonetic": "/dɪsˈmɪs/",
     "partOfSpeech": "verb",
     "definition": "To remove someone from their job.",
     "example": "Fogg decides to dismiss his servant for making a small mistake."
   },
   {
     "word": "servant",
-    "phonetic": "/ˈsɜːrvənt/",
     "partOfSpeech": "noun",
     "definition": "A person who is paid to work in someone's home.",
     "example": "Passepartout becomes Fogg's new servant."
   },
   {
     "word": "shaving",
-    "phonetic": "/ˈʃeɪvɪŋ/",
     "partOfSpeech": "noun",
     "definition": "The act of cutting hair from the face with a razor.",
     "example": "Fogg expects his shaving water to have the correct temperature."
   },
   {
     "word": "temperature",
-    "phonetic": "/ˈtemprətʃər/",
     "partOfSpeech": "noun",
     "definition": "A measurement of how hot or cold something is.",
     "example": "The shaving water was at the wrong temperature."
   },
   {
     "word": "adventurous",
-    "phonetic": "/ədˈventʃərəs/",
     "partOfSpeech": "adjective",
     "definition": "Willing to experience exciting, unusual, or sometimes dangerous things.",
     "example": "Passepartout has lived an adventurous life."
   },
   {
     "word": "performer",
-    "phonetic": "/pərˈfɔːrmər/",
     "partOfSpeech": "noun",
     "definition": "A person who entertains people by acting, singing, dancing, or doing other skills.",
     "example": "Passepartout once worked as a circus performer."
   },
   {
     "word": "gymnast",
-    "phonetic": "/ˈdʒɪmnæst/",
     "partOfSpeech": "noun",
     "definition": "A person trained to perform difficult physical movements.",
     "example": "Passepartout had worked as a gymnast."
   },
   {
     "word": "fireman",
-    "phonetic": "/ˈfaɪərmən/",
     "partOfSpeech": "noun",
     "definition": "A person whose job is to put out fires and rescue people.",
     "example": "Passepartout had once worked as a fireman."
   },
   {
     "word": "peaceful",
-    "phonetic": "/ˈpiːsfəl/",
     "partOfSpeech": "adjective",
     "definition": "Calm and quiet, without trouble or excitement.",
     "example": "Passepartout wants to live a peaceful life."
   },
   {
     "word": "regular",
-    "phonetic": "/ˈreɡjələr/",
     "partOfSpeech": "adjective",
     "definition": "Happening in the same way or at the same time again and again.",
     "example": "Passepartout wants a quiet and regular life."
   },
   {
     "word": "master",
-    "phonetic": "/ˈmɑːstər/",
     "partOfSpeech": "noun",
     "definition": "A person who employs and gives instructions to a servant.",
     "example": "Passepartout believes Fogg will be the perfect master."
   },
   {
     "word": "accept",
-    "phonetic": "/əkˈsept/",
     "partOfSpeech": "verb",
     "definition": "To agree to take or receive something or someone.",
     "example": "Fogg accepts Passepartout as his new servant."
   },
   {
     "word": "conversation",
-    "phonetic": "/ˌkɑːnvərˈseɪʃən/",
     "partOfSpeech": "noun",
     "definition": "A talk between two or more people.",
     "example": "Fogg notices Passepartout's watch during their conversation."
   },
   {
     "word": "notice",
-    "phonetic": "/ˈnoʊtɪs/",
     "partOfSpeech": "verb",
     "definition": "To see or become aware of something.",
     "example": "Fogg notices that Passepartout's watch is slow."
   },
   {
     "word": "seriously",
-    "phonetic": "/ˈsɪriəsli/",
     "partOfSpeech": "adverb",
     "definition": "In a careful and important way, not as a joke.",
     "example": "Fogg takes time very seriously."
   },
   {
     "word": "introduce",
-    "phonetic": "/ˌɪntrəˈduːs/",
     "partOfSpeech": "verb",
     "definition": "To present someone or something for the first time.",
     "example": "The chapter introduces Phileas Fogg."
   },
   {
     "word": "describe",
-    "phonetic": "/dɪˈskraɪb/",
     "partOfSpeech": "verb",
     "definition": "To explain what someone or something is like.",
     "example": "The chapter describes Fogg's unusual daily life."
   },
   {
     "word": "routine",
-    "phonetic": "/ruːˈtiːn/",
     "partOfSpeech": "noun",
     "definition": "The usual things a person does regularly.",
     "example": "Fogg follows the same daily routine."
   },
   {
     "word": "establish",
-    "phonetic": "/ɪˈstæblɪʃ/",
     "partOfSpeech": "verb",
     "definition": "To make something clear, known, or firmly set.",
     "example": "The first chapter establishes Fogg's exact routine."
   },
   {
     "word": "arrive",
-    "phonetic": "/əˈraɪv/",
     "partOfSpeech": "verb",
     "definition": "To reach a place.",
     "example": "Passepartout arrives at Fogg's house to begin his new job."
   },
   {
     "word": "importance",
-    "phonetic": "/ɪmˈpɔːrtəns/",
     "partOfSpeech": "noun",
     "definition": "The quality of being valuable or having a strong effect.",
     "example": "The chapter shows the importance of time in Fogg's life."
   },
   {
     "word": "establishes",
-    "phonetic": "/ɪˈstæblɪʃɪz/",
     "partOfSpeech": "verb",
     "definition": "Makes an idea or fact clear and certain.",
     "example": "Chapter 1 establishes the differences between Fogg and Passepartout."
   },
   {
     "word": "contrast",
-    "phonetic": "/ˈkɑːntræst/",
     "partOfSpeech": "noun",
     "definition": "A clear difference between two people or things.",
     "example": "There is a strong contrast between Fogg and Passepartout."
   },
   {
     "word": "controlled",
-    "phonetic": "/kənˈtroʊld/",
     "partOfSpeech": "adjective",
     "definition": "Calm and able to keep feelings or actions under control.",
     "example": "Fogg is calm and controlled."
   },
   {
     "word": "mechanical",
-    "phonetic": "/məˈkænɪkəl/",
     "partOfSpeech": "adjective",
     "definition": "Acting like a machine, following the same pattern without much emotion.",
     "example": "Fogg's exact habits make him seem almost mechanical."
   },
   {
     "word": "lively",
-    "phonetic": "/ˈlaɪvli/",
     "partOfSpeech": "adjective",
     "definition": "Full of energy and excitement.",
     "example": "Passepartout is more lively than Fogg."
   },
   {
     "word": "emotional",
-    "phonetic": "/ɪˈmoʊʃənəl/",
     "partOfSpeech": "adjective",
     "definition": "Showing feelings strongly.",
     "example": "Passepartout is more emotional than his calm master."
   },
   {
     "word": "nature",
-    "phonetic": "/ˈneɪtʃər/",
     "partOfSpeech": "noun",
     "definition": "A person's natural character or usual way of behaving.",
     "example": "Passepartout is adventurous by nature."
   },
   {
     "word": "extremely",
-    "phonetic": "/ɪkˈstriːmli/",
     "partOfSpeech": "adverb",
     "definition": "To a very great degree.",
     "example": "Fogg is extremely quiet and private."
   },
   {
     "word": "perfect",
-    "phonetic": "/ˈpɜːrfɪkt/",
     "partOfSpeech": "adjective",
     "definition": "Exactly right or without any mistake.",
     "example": "Fogg follows his daily routine with perfect regularity."
   },
   {
     "word": "adventure",
-    "phonetic": "/ədˈventʃər/",
     "partOfSpeech": "noun",
     "definition": "An exciting or unusual experience, sometimes involving danger.",
     "example": "Passepartout is tired of adventure and wants a quiet life."
   },
   {
     "word": "background",
-    "phonetic": "/ˈbækɡraʊnd/",
     "partOfSpeech": "noun",
     "definition": "A person's past life, experience, or history.",
     "example": "Passepartout has an unusual and adventurous background."
   },
   {
     "word": "regularity",
-    "phonetic": "/ˌreɡjəˈlærəti/",
     "partOfSpeech": "noun",
     "definition": "The state of doing things at fixed or repeated times.",
     "example": "Passepartout is attracted by the regularity of Fogg's life."
   },
   {
     "word": "strict",
-    "phonetic": "/strɪkt/",
     "partOfSpeech": "adjective",
     "definition": "Demanding that rules or instructions are followed exactly.",
     "example": "Fogg is very strict about time."
   },
   {
     "word": "exactness",
-    "phonetic": "/ɪɡˈzæktnəs/",
     "partOfSpeech": "noun",
     "definition": "The quality of being completely correct and precise.",
     "example": "Fogg's exactness can be seen in every part of his daily life."
   },
   {
     "word": "punctual",
-    "phonetic": "/ˈpʌŋktʃuəl/",
     "partOfSpeech": "adjective",
     "definition": "Always doing something or arriving at the correct time.",
     "example": "Phileas Fogg is an extremely punctual man."
   },
   {
     "word": "disgusting",
-    "phonetic": "/dɪsˈɡʌstɪŋ/",
     "partOfSpeech": "adjective",
     "definition": "Very unpleasant or horrible.",
     "example": "The narrator jokes about a disgusting child."
   },
   {
     "word": "adoration",
-    "phonetic": "/ˌædəˈreɪʃən/",
     "partOfSpeech": "noun",
     "definition": "Very strong love or admiration for someone.",
     "example": "Some parents are blinded by adoration for their children."
   },
   {
     "word": "convince",
-    "phonetic": "/kənˈvɪns/",
     "partOfSpeech": "verb",
     "definition": "To make someone believe that something is true.",
     "example": "Some parents convince themselves that their child is a genius."
   },
   {
     "word": "genius",
-    "phonetic": "/ˈdʒiːniəs/",
     "partOfSpeech": "noun",
     "definition": "A person with extremely high intelligence or great natural ability.",
     "example": "Matilda has qualities of genius."
   },
   {
     "word": "brilliance",
-    "phonetic": "/ˈbrɪliəns/",
     "partOfSpeech": "noun",
     "definition": "Very great intelligence, skill, or ability.",
     "example": "Some parents constantly talk about the brilliance of their children."
   },
   {
     "word": "revolting",
-    "phonetic": "/rɪˈvoʊltɪŋ/",
     "partOfSpeech": "adjective",
     "definition": "Extremely unpleasant or disgusting.",
     "example": "The narrator describes some badly behaved children as revolting."
   },
   {
     "word": "offspring",
-    "phonetic": "/ˈɔːfsprɪŋ/",
     "partOfSpeech": "noun",
     "definition": "A person's child or children.",
     "example": "Proud parents often praise their offspring."
   },
   {
     "word": "twaddle",
-    "phonetic": "/ˈtwɑːdəl/",
     "partOfSpeech": "noun",
     "definition": "Silly or meaningless talk.",
     "example": "Teachers sometimes have to listen to twaddle from proud parents."
   },
   {
     "word": "scorcher",
-    "phonetic": "/ˈskɔːrtʃər/",
     "partOfSpeech": "noun",
     "definition": "Something very strong, severe, or impressive.",
     "example": "The narrator imagines writing some real scorchers in school reports."
   },
   {
     "word": "doting",
-    "phonetic": "/ˈdoʊtɪŋ/",
     "partOfSpeech": "adjective",
     "definition": "Showing too much love and admiration for someone.",
     "example": "Doting parents may think their child can do nothing wrong."
   },
   {
     "word": "lyrical",
-    "phonetic": "/ˈlɪrɪkəl/",
     "partOfSpeech": "adjective",
     "definition": "Expressing thoughts or feelings in a beautiful or imaginative way.",
     "example": "The narrator imagines becoming lyrical while writing a school report."
   },
   {
     "word": "curious",
-    "phonetic": "/ˈkjʊriəs/",
     "partOfSpeech": "adjective",
     "definition": "Strange, unusual, or interesting.",
     "example": "The narrator mentions a curious fact about grasshoppers."
   },
   {
     "word": "abdomen",
-    "phonetic": "/ˈæbdəmən/",
     "partOfSpeech": "noun",
     "definition": "The part of the body between the chest and the hips.",
     "example": "A grasshopper has hearing organs on the sides of its abdomen."
   },
   {
     "word": "delve",
-    "phonetic": "/delv/",
     "partOfSpeech": "verb",
     "definition": "To examine or study something more deeply.",
     "example": "The narrator decides to delve deeper into natural history."
   },
   {
     "word": "periodical",
-    "phonetic": "/ˌpɪriˈɑːdɪkəl/",
     "partOfSpeech": "adjective",
     "definition": "Happening again after a regular period of time.",
     "example": "The narrator talks about the periodical cicada."
   },
   {
     "word": "grub",
-    "phonetic": "/ɡrʌb/",
     "partOfSpeech": "noun",
     "definition": "A young insect that looks like a small worm.",
     "example": "The cicada spends several years as a grub underground."
   },
   {
     "word": "emerge",
-    "phonetic": "/ɪˈmɜːrdʒ/",
     "partOfSpeech": "verb",
     "definition": "To come out from somewhere or become visible.",
     "example": "The insect eventually emerges from underground."
   },
   {
     "word": "chrysalis",
-    "phonetic": "/ˈkrɪsəlɪs/",
     "partOfSpeech": "noun",
     "definition": "A hard covering in which some insects develop before becoming adults.",
     "example": "The narrator compares a student to an insect inside a chrysalis."
   },
   {
     "word": "poisonous",
-    "phonetic": "/ˈpɔɪzənəs/",
     "partOfSpeech": "adjective",
     "definition": "Containing poison, or very harmful and unpleasant.",
     "example": "The narrator imagines writing about a particularly poisonous little girl."
   },
   {
     "word": "glacial",
-    "phonetic": "/ˈɡleɪʃəl/",
     "partOfSpeech": "adjective",
     "definition": "Extremely cold or showing very little warmth or emotion.",
     "example": "The girl's beauty is jokingly described as glacial."
   },
   {
     "word": "surface",
-    "phonetic": "/ˈsɜːrfɪs/",
     "partOfSpeech": "noun",
     "definition": "The outside or top part of something.",
     "example": "An iceberg has much more below the surface."
   },
   {
     "word": "stinkers",
-    "phonetic": "/ˈstɪŋkərz/",
     "partOfSpeech": "noun",
     "definition": "People, especially children, who behave very badly.",
     "example": "The narrator calls badly behaved pupils stinkers."
   },
   {
     "word": "occasionally",
-    "phonetic": "/əˈkeɪʒənəli/",
     "partOfSpeech": "adverb",
     "definition": "Sometimes, but not often.",
     "example": "Occasionally, some parents show very little interest in their children."
   },
   {
     "word": "opposite",
-    "phonetic": "/ˈɑːpəzɪt/",
     "partOfSpeech": "adjective",
     "definition": "Completely different from something else.",
     "example": "Some parents take the opposite approach to doting parents."
   },
   {
     "word": "scab",
-    "phonetic": "/skæb/",
     "partOfSpeech": "noun",
     "definition": "A dry covering that forms over a cut or wound while it heals.",
     "example": "Matilda's parents treat her as if she were an unwanted scab."
   },
   {
     "word": "bunions",
-    "phonetic": "/ˈbʌnjənz/",
     "partOfSpeech": "noun",
     "definition": "Painful hard swellings near the base of the big toe.",
     "example": "The narrator compares badly treated children to scabs and bunions."
   },
   {
     "word": "extraordinary",
-    "phonetic": "/ɪkˈstrɔːrdəneri/",
     "partOfSpeech": "adjective",
     "definition": "Very unusual or much better than normal.",
     "example": "Matilda is an extraordinary child."
   },
   {
     "word": "sensitive",
-    "phonetic": "/ˈsensətɪv/",
     "partOfSpeech": "adjective",
     "definition": "Quick to notice or feel things and easily affected by them.",
     "example": "Matilda is both sensitive and brilliant."
   },
   {
     "word": "brilliant",
-    "phonetic": "/ˈbrɪliənt/",
     "partOfSpeech": "adjective",
     "definition": "Extremely clever or talented.",
     "example": "Matilda is a brilliant young girl."
   },
   {
     "word": "nimble",
-    "phonetic": "/ˈnɪmbəl/",
     "partOfSpeech": "adjective",
     "definition": "Quick and clever in movement or thought.",
     "example": "Matilda has a very nimble mind."
   },
   {
     "word": "ability",
-    "phonetic": "/əˈbɪləti/",
     "partOfSpeech": "noun",
     "definition": "The skill or power to do something.",
     "example": "Matilda's ability to learn should have been obvious."
   },
   {
     "word": "obvious",
-    "phonetic": "/ˈɑːbviəs/",
     "partOfSpeech": "adjective",
     "definition": "Easy to see, notice, or understand.",
     "example": "Matilda's intelligence should have been obvious to her parents."
   },
   {
     "word": "half-witted",
-    "phonetic": "/ˌhæf ˈwɪtɪd/",
     "partOfSpeech": "adjective",
     "definition": "Very foolish or not very intelligent.",
     "example": "Even half-witted parents should have noticed Matilda's ability."
   },
   {
     "word": "gormless",
-    "phonetic": "/ˈɡɔːrmləs/",
     "partOfSpeech": "adjective",
     "definition": "Very foolish and lacking good sense.",
     "example": "Mr and Mrs Wormwood are described as gormless."
   },
   {
     "word": "applauding",
-    "phonetic": "/əˈplɔːdɪŋ/",
     "partOfSpeech": "verb",
     "definition": "Showing approval or praise, often by clapping.",
     "example": "Instead of applauding Matilda, her parents complain about her."
   },
   {
     "word": "chatterbox",
-    "phonetic": "/ˈtʃætərbɑːks/",
     "partOfSpeech": "noun",
     "definition": "A person who talks a lot.",
     "example": "Matilda's parents call her a noisy chatterbox."
   },
   {
     "word": "hankering",
-    "phonetic": "/ˈhæŋkərɪŋ/",
     "partOfSpeech": "noun",
     "definition": "A strong desire to have or do something.",
     "example": "Matilda develops a hankering for books."
   },
   {
     "word": "enlightened",
-    "phonetic": "/ɪnˈlaɪtənd/",
     "partOfSpeech": "adjective",
     "definition": "Having good knowledge and sensible ideas.",
     "example": "The narrator jokingly calls the Wormwood home an enlightened household."
   },
   {
     "word": "recipes",
-    "phonetic": "/ˈresəpiz/",
     "partOfSpeech": "noun",
     "definition": "Instructions explaining how to prepare food.",
     "example": "Matilda learns all the recipes in the cooking book."
   },
   {
     "word": "spoiled",
-    "phonetic": "/spɔɪld/",
     "partOfSpeech": "adjective",
     "definition": "Used to getting whatever one wants and therefore behaving badly.",
     "example": "Mr Wormwood says Matilda is getting spoiled."
   },
   {
     "word": "refused",
-    "phonetic": "/rɪˈfjuːzd/",
     "partOfSpeech": "verb",
     "definition": "Said no to something or would not agree to do it.",
     "example": "Matilda's father refused to buy her a book."
   },
   {
     "word": "librarian",
-    "phonetic": "/laɪˈbreriən/",
     "partOfSpeech": "noun",
     "definition": "A person who works in and helps manage a library.",
     "example": "Mrs Phelps is the librarian Matilda meets."
   },
   {
     "word": "unaccompanied",
-    "phonetic": "/ˌʌnəˈkʌmpənid/",
     "partOfSpeech": "adjective",
     "definition": "Without another person coming with you.",
     "example": "Mrs Phelps is surprised to see such a young girl unaccompanied by a parent."
   },
   {
     "word": "nevertheless",
-    "phonetic": "/ˌnevərðəˈles/",
     "partOfSpeech": "adverb",
     "definition": "In spite of what was just mentioned.",
     "example": "Mrs Phelps is surprised, but nevertheless welcomes Matilda."
   },
   {
     "word": "toddle",
-    "phonetic": "/ˈtɑːdəl/",
     "partOfSpeech": "verb",
     "definition": "To walk with small, slightly unsteady steps.",
     "example": "Matilda would toddle down to the library each afternoon."
   },
   {
     "word": "glorious",
-    "phonetic": "/ˈɡlɔːriəs/",
     "partOfSpeech": "adjective",
     "definition": "Extremely enjoyable, beautiful, or wonderful.",
     "example": "Matilda enjoys two glorious hours of reading."
   },
   {
     "word": "cosy",
-    "phonetic": "/ˈkoʊzi/",
     "partOfSpeech": "adjective",
     "definition": "Warm, comfortable, and pleasant.",
     "example": "Matilda reads in a cosy corner of the library."
   },
   {
     "word": "devouring",
-    "phonetic": "/dɪˈvaʊərɪŋ/",
     "partOfSpeech": "verb",
     "definition": "Reading or enjoying something very quickly and eagerly.",
     "example": "Matilda spends hours devouring one book after another."
   },
   {
     "word": "wandering",
-    "phonetic": "/ˈwɑːndərɪŋ/",
     "partOfSpeech": "verb",
     "definition": "Moving around without a fixed direction.",
     "example": "Matilda starts wandering around the library for something new to read."
   },
   {
     "word": "fascination",
-    "phonetic": "/ˌfæsəˈneɪʃən/",
     "partOfSpeech": "noun",
     "definition": "A very strong feeling of interest in something.",
     "example": "Mrs Phelps watches Matilda with fascination."
   },
   {
     "word": "stunned",
-    "phonetic": "/stʌnd/",
     "partOfSpeech": "adjective",
     "definition": "Extremely surprised or shocked.",
     "example": "Mrs Phelps is stunned by Matilda's reading ability."
   },
   {
     "word": "instinctively",
-    "phonetic": "/ɪnˈstɪŋktɪvli/",
     "partOfSpeech": "adverb",
     "definition": "Naturally, without having to think carefully first.",
     "example": "Mrs Phelps instinctively chooses a more difficult book for Matilda."
   },
   {
     "word": "absorbed",
-    "phonetic": "/əbˈzɔːrbd/",
     "partOfSpeech": "adjective",
     "definition": "Giving all your attention to something.",
     "example": "Matilda becomes completely absorbed in her book."
   },
   {
     "word": "cobwebbed",
-    "phonetic": "/ˈkɑːbwebd/",
     "partOfSpeech": "adjective",
     "definition": "Covered with old spider webs.",
     "example": "Matilda reads about Miss Havisham's cobwebbed house."
   },
   {
     "word": "compassionate",
-    "phonetic": "/kəmˈpæʃənət/",
     "partOfSpeech": "adjective",
     "definition": "Kind and caring toward someone who needs help.",
     "example": "Mrs Phelps keeps a compassionate eye on Matilda."
   },
   {
     "word": "formidable",
-    "phonetic": "/ˈfɔːrmɪdəbəl/",
     "partOfSpeech": "adjective",
     "definition": "Very impressive because of its size, difficulty, or strength.",
     "example": "Matilda completes a formidable list of difficult books."
   },
   {
     "word": "achievements",
-    "phonetic": "/əˈtʃiːvmənts/",
     "partOfSpeech": "noun",
     "definition": "Things successfully completed through effort or ability.",
     "example": "Mrs Phelps is amazed by Matilda's achievements."
   },
   {
     "word": "witnessing",
-    "phonetic": "/ˈwɪtnəsɪŋ/",
     "partOfSpeech": "verb",
     "definition": "Seeing something happen.",
     "example": "Anyone witnessing Matilda's reading would be amazed."
   },
   {
     "word": "interfere",
-    "phonetic": "/ˌɪntərˈfɪr/",
     "partOfSpeech": "verb",
     "definition": "To become involved in something that is not your responsibility.",
     "example": "Mrs Phelps decides not to interfere with Matilda's family life."
   },
   {
     "word": "transported",
-    "phonetic": "/trænˈspɔːrtɪd/",
     "partOfSpeech": "verb",
     "definition": "Carried or taken from one place to another; in the story, made to feel as if taken somewhere through imagination.",
     "example": "Books transported Matilda into new worlds."
