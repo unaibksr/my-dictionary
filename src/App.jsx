@@ -1,7 +1,28 @@
 import { useMemo, useState } from 'react'
 import dictionary from './data/dictionary.json'
 
-const sortedWords = [...dictionary].sort((a, b) => a.word.localeCompare(b.word))
+function buildWords(entries) {
+  const map = new Map()
+  for (const entry of entries) {
+    const id = entry.word.trim().toLowerCase()
+    if (!map.has(id)) {
+      map.set(id, {
+        id,
+        word: entry.word,
+        phonetic: entry.phonetic,
+        senses: [],
+      })
+    }
+    map.get(id).senses.push({
+      partOfSpeech: entry.partOfSpeech,
+      definition: entry.definition,
+      example: entry.example,
+    })
+  }
+  return [...map.values()].sort((a, b) => a.word.localeCompare(b.word))
+}
+
+const words = buildWords(dictionary)
 
 function App() {
   const [query, setQuery] = useState('')
@@ -9,8 +30,8 @@ function App() {
 
   const results = useMemo(() => {
     const q = query.trim().toLowerCase()
-    if (!q) return sortedWords
-    return sortedWords.filter((entry) => entry.word.toLowerCase().includes(q))
+    if (!q) return words
+    return words.filter((entry) => entry.word.toLowerCase().includes(q))
   }, [query])
 
   return (
@@ -18,7 +39,7 @@ function App() {
       <header className="header">
         <div className="brand">
           <h1 className="title">My Dictionary</h1>
-          <p className="subtitle">{sortedWords.length} words</p>
+          <p className="subtitle">{words.length} words</p>
         </div>
         <div className="search">
           <svg className="search-icon" viewBox="0 0 24 24" aria-hidden="true">
@@ -55,16 +76,19 @@ function App() {
           {results.length > 0 ? (
             results.map((entry) => (
               <button
-                key={entry.word}
+                key={entry.id}
                 type="button"
-                className={`word-card${selectedWord?.word === entry.word ? ' active' : ''}`}
+                className={`word-card${selectedWord?.id === entry.id ? ' active' : ''}`}
                 onClick={() => setSelectedWord(entry)}
               >
                 <span className="word-head">
                   <span className="word">{entry.word}</span>
-                  <span className="pos">{entry.partOfSpeech}</span>
+                  <span className="pos">{entry.senses[0].partOfSpeech}</span>
+                  {entry.senses.length > 1 && (
+                    <span className="count">{entry.senses.length} defs</span>
+                  )}
                 </span>
-                <span className="preview">{entry.definition}</span>
+                <span className="preview">{entry.senses[0].definition}</span>
                 <svg className="chevron" viewBox="0 0 24 24" aria-hidden="true">
                   <path
                     fill="none"
@@ -109,6 +133,7 @@ function App() {
 }
 
 function Detail({ entry, onBack }) {
+  const multiple = entry.senses.length > 1
   return (
     <div className="detail">
       <button type="button" className="back" onClick={onBack}>
@@ -126,19 +151,19 @@ function Detail({ entry, onBack }) {
       </button>
       <p className="detail-phonetic">{entry.phonetic}</p>
       <h2 className="detail-word">{entry.word}</h2>
-      <span className="pos badge">{entry.partOfSpeech}</span>
 
-      <section className="block">
-        <h3>Definition</h3>
-        <p className="definition">{entry.definition}</p>
-      </section>
-
-      {entry.example && (
-        <section className="block">
-          <h3>Example</h3>
-          <p className="example">“{entry.example}”</p>
-        </section>
-      )}
+      <div className="senses">
+        {entry.senses.map((sense, i) => (
+          <section className="sense" key={i}>
+            {multiple && <span className="sense-num">{i + 1}</span>}
+            <div className="sense-body">
+              <span className="pos badge">{sense.partOfSpeech}</span>
+              <p className="definition">{sense.definition}</p>
+              {sense.example && <p className="example">“{sense.example}”</p>}
+            </div>
+          </section>
+        ))}
+      </div>
     </div>
   )
 }
