@@ -1,0 +1,562 @@
+[
+  {
+    "word": "lagoon",
+    "phonetic": "/ləˈɡuːn/",
+    "partOfSpeech": "noun",
+    "definition": "A small area of sea water separated from the open sea by sand, rocks, or coral.",
+    "example": "Ralph walked toward the clear blue lagoon."
+  },
+  {
+    "word": "plastered",
+    "phonetic": "/ˈplɑːstərd/",
+    "partOfSpeech": "adjective",
+    "definition": "Stuck flat against something.",
+    "example": "Ralph's wet hair was plastered to his forehead."
+  },
+  {
+    "word": "clambering",
+    "phonetic": "/ˈklæmbərɪŋ/",
+    "partOfSpeech": "verb",
+    "definition": "Climbing with difficulty, often using both hands and feet.",
+    "example": "The boys were clambering over the rocks."
+  },
+  {
+    "word": "creepers",
+    "phonetic": "/ˈkriːpərz/",
+    "partOfSpeech": "noun",
+    "definition": "Plants that grow along the ground or climb around trees and other plants.",
+    "example": "Thick creepers made it difficult to move through the jungle."
+  },
+  {
+    "word": "undergrowth",
+    "phonetic": "/ˈʌndərɡroʊθ/",
+    "partOfSpeech": "noun",
+    "definition": "Thick bushes and small plants growing under trees.",
+    "example": "Piggy struggled through the thick undergrowth."
+  },
+  {
+    "word": "multitude",
+    "phonetic": "/ˈmʌltɪtuːd/",
+    "partOfSpeech": "noun",
+    "definition": "A very large number of people or things.",
+    "example": "A multitude of raindrops fell from the leaves."
+  },
+  {
+    "word": "pattering",
+    "phonetic": "/ˈpætərɪŋ/",
+    "partOfSpeech": "verb",
+    "definition": "Making a series of light, quick tapping sounds.",
+    "example": "Raindrops came pattering down from the leaves."
+  },
+  {
+    "word": "gesture",
+    "phonetic": "/ˈdʒestʃər/",
+    "partOfSpeech": "noun",
+    "definition": "A movement of the body that shows an idea or feeling.",
+    "example": "Ralph made a quick gesture with his hand."
+  },
+  {
+    "word": "crooks",
+    "phonetic": "/krʊks/",
+    "partOfSpeech": "noun",
+    "definition": "Bent or curved parts of something.",
+    "example": "The crooks of Piggy's knees were scratched by thorns."
+  },
+  {
+    "word": "plump",
+    "phonetic": "/plʌmp/",
+    "partOfSpeech": "adjective",
+    "definition": "Slightly fat and round in shape.",
+    "example": "Piggy had plump knees."
+  },
+  {
+    "word": "lodgments",
+    "phonetic": "/ˈlɑːdʒmənts/",
+    "partOfSpeech": "noun",
+    "definition": "Places where something can safely rest or be placed.",
+    "example": "Piggy searched for safe lodgments for his feet."
+  },
+  {
+    "word": "spectacles",
+    "phonetic": "/ˈspektəkəlz/",
+    "partOfSpeech": "noun",
+    "definition": "Glasses worn to help a person see clearly.",
+    "example": "Piggy looked at Ralph through his thick spectacles."
+  },
+  {
+    "word": "reef",
+    "phonetic": "/riːf/",
+    "partOfSpeech": "noun",
+    "definition": "A long line of rock or coral near the surface of the sea.",
+    "example": "A coral reef surrounded part of the island."
+  },
+  {
+    "word": "startled",
+    "phonetic": "/ˈstɑːrtəld/",
+    "partOfSpeech": "adjective",
+    "definition": "Suddenly surprised or frightened.",
+    "example": "Piggy looked startled when he heard there might be no adults."
+  },
+  {
+    "word": "peering",
+    "phonetic": "/ˈpɪrɪŋ/",
+    "partOfSpeech": "verb",
+    "definition": "Looking carefully because something is difficult to see.",
+    "example": "Ralph was peering at the distant reef."
+  },
+  {
+    "word": "offhand",
+    "phonetic": "/ˌɔːfˈhænd/",
+    "partOfSpeech": "adjective",
+    "definition": "Casual and showing little interest or concern.",
+    "example": "Ralph tried to sound offhand when Piggy followed him."
+  },
+  {
+    "word": "solemnly",
+    "phonetic": "/ˈsɑːləmli/",
+    "partOfSpeech": "adverb",
+    "definition": "In a serious and calm way.",
+    "example": "Ralph solemnly said that there were no grown-ups."
+  },
+  {
+    "word": "ambition",
+    "phonetic": "/æmˈbɪʃən/",
+    "partOfSpeech": "noun",
+    "definition": "Something that a person strongly wants to achieve or experience.",
+    "example": "Ralph was excited because one of his ambitions had come true."
+  },
+  {
+    "word": "jagged",
+    "phonetic": "/ˈdʒæɡɪd/",
+    "partOfSpeech": "adjective",
+    "definition": "Having rough and sharp edges.",
+    "example": "Ralph touched the jagged end of a broken tree trunk."
+  },
+  {
+    "word": "hesitated",
+    "phonetic": "/ˈhezɪteɪtɪd/",
+    "partOfSpeech": "verb",
+    "definition": "Paused for a short time because of uncertainty.",
+    "example": "Piggy hesitated before asking Ralph his name."
+  },
+  {
+    "word": "proffer",
+    "phonetic": "/ˈprɑːfər/",
+    "partOfSpeech": "noun",
+    "definition": "An offer of something.",
+    "example": "Piggy waited for a proffer of friendship from Ralph."
+  },
+  {
+    "word": "acquaintance",
+    "phonetic": "/əˈkweɪntəns/",
+    "partOfSpeech": "noun",
+    "definition": "A person you know but do not know very closely.",
+    "example": "Piggy hoped to make Ralph's acquaintance."
+  },
+  {
+    "word": "vaguely",
+    "phonetic": "/ˈveɪɡli/",
+    "partOfSpeech": "adverb",
+    "definition": "In a way that is not clear, exact, or strong.",
+    "example": "Ralph smiled vaguely and continued walking."
+  },
+  {
+    "word": "contours",
+    "phonetic": "/ˈkɑːntʊrz/",
+    "partOfSpeech": "noun",
+    "definition": "The outer shape or lines of something.",
+    "example": "Pain changed the contours of Piggy's face."
+  },
+  {
+    "word": "foliage",
+    "phonetic": "/ˈfoʊliɪdʒ/",
+    "partOfSpeech": "noun",
+    "definition": "The leaves of plants and trees.",
+    "example": "Piggy crouched among the thick foliage."
+  },
+  {
+    "word": "disentangled",
+    "phonetic": "/ˌdɪsɪnˈtæŋɡəld/",
+    "partOfSpeech": "verb",
+    "definition": "Freed from something that was twisted or wrapped around it.",
+    "example": "Ralph disentangled himself from the branches."
+  },
+  {
+    "word": "cautiously",
+    "phonetic": "/ˈkɔːʃəsli/",
+    "partOfSpeech": "adverb",
+    "definition": "Carefully in order to avoid danger or problems.",
+    "example": "Ralph moved cautiously through the jungle."
+  },
+  {
+    "word": "coarse",
+    "phonetic": "/kɔːrs/",
+    "partOfSpeech": "adjective",
+    "definition": "Rough rather than smooth or soft.",
+    "example": "Coarse grass covered the ground under the palm trees."
+  },
+  {
+    "word": "upheavals",
+    "phonetic": "/ʌpˈhiːvəlz/",
+    "partOfSpeech": "noun",
+    "definition": "Large or sudden movements that cause great change.",
+    "example": "The ground showed upheavals where trees had fallen."
+  },
+  {
+    "word": "decaying",
+    "phonetic": "/dɪˈkeɪɪŋ/",
+    "partOfSpeech": "adjective",
+    "definition": "Slowly becoming rotten or destroyed.",
+    "example": "Decaying coconuts were scattered under the trees."
+  },
+  {
+    "word": "shimmering",
+    "phonetic": "/ˈʃɪmərɪŋ/",
+    "partOfSpeech": "adjective",
+    "definition": "Shining with a soft light that seems to move.",
+    "example": "Ralph looked across the shimmering water."
+  },
+  {
+    "word": "irregular",
+    "phonetic": "/ɪˈreɡjələr/",
+    "partOfSpeech": "adjective",
+    "definition": "Not even, regular, or having a normal shape.",
+    "example": "The reef formed an irregular curve around the lagoon."
+  },
+  {
+    "word": "perspective",
+    "phonetic": "/pərˈspektɪv/",
+    "partOfSpeech": "noun",
+    "definition": "The way something appears when seen from a particular place.",
+    "example": "From Ralph's perspective, the beach seemed endless."
+  },
+  {
+    "word": "prominent",
+    "phonetic": "/ˈprɑːmɪnənt/",
+    "partOfSpeech": "adjective",
+    "definition": "Easy to notice because it stands out.",
+    "example": "Ralph no longer had the prominent stomach of a small child."
+  },
+  {
+    "word": "adolescence",
+    "phonetic": "/ˌædəˈlesəns/",
+    "partOfSpeech": "noun",
+    "definition": "The period when a child is developing into an adult.",
+    "example": "Ralph was approaching adolescence."
+  },
+  {
+    "word": "proclaimed",
+    "phonetic": "/prəˈkleɪmd/",
+    "partOfSpeech": "verb",
+    "definition": "Showed or announced something clearly.",
+    "example": "The mild look in Ralph's eyes proclaimed that he was not cruel."
+  },
+  {
+    "word": "apprehension",
+    "phonetic": "/ˌæprɪˈhenʃən/",
+    "partOfSpeech": "noun",
+    "definition": "Worry or fear that something bad may happen.",
+    "example": "Piggy clasped his hands in apprehension."
+  },
+  {
+    "word": "reluctantly",
+    "phonetic": "/rɪˈlʌktəntli/",
+    "partOfSpeech": "adverb",
+    "definition": "In an unwilling way.",
+    "example": "Piggy reluctantly smiled when Ralph laughed at his nickname."
+  },
+  {
+    "word": "recognition",
+    "phonetic": "/ˌrekəɡˈnɪʃən/",
+    "partOfSpeech": "noun",
+    "definition": "The act of noticing, accepting, or giving attention to someone or something.",
+    "example": "Piggy was pleased to receive some recognition from Ralph."
+  },
+  {
+    "word": "abruptly",
+    "phonetic": "/əˈbrʌptli/",
+    "partOfSpeech": "adverb",
+    "definition": "Suddenly and unexpectedly.",
+    "example": "The smooth beach was abruptly interrupted by a rocky platform."
+  },
+  {
+    "word": "motif",
+    "phonetic": "/moʊˈtiːf/",
+    "partOfSpeech": "noun",
+    "definition": "A shape, design, or idea that appears repeatedly.",
+    "example": "The square shape of the rocks formed a motif in the landscape."
+  },
+  {
+    "word": "granite",
+    "phonetic": "/ˈɡrænɪt/",
+    "partOfSpeech": "noun",
+    "definition": "A very hard type of natural rock.",
+    "example": "The boys climbed onto a platform of pink granite."
+  },
+  {
+    "word": "uncompromisingly",
+    "phonetic": "/ʌnˈkɑːmprəmaɪzɪŋli/",
+    "partOfSpeech": "adverb",
+    "definition": "In a firm or strong way that does not give way.",
+    "example": "The granite platform rose uncompromisingly through the landscape."
+  },
+  {
+    "word": "jetty",
+    "phonetic": "/ˈdʒeti/",
+    "partOfSpeech": "noun",
+    "definition": "A structure that extends from the land out into water.",
+    "example": "The rock formed a natural jetty beside the lagoon."
+  },
+  {
+    "word": "quivering",
+    "phonetic": "/ˈkwɪvərɪŋ/",
+    "partOfSpeech": "adjective",
+    "definition": "Shaking or moving slightly and quickly.",
+    "example": "Quivering reflections from the water moved across the trees."
+  },
+  {
+    "word": "efflorescence",
+    "phonetic": "/ˌefləˈresəns/",
+    "partOfSpeech": "noun",
+    "definition": "A rich or colorful growth of plants or other natural things.",
+    "example": "The water was bright with the efflorescence of tropical plants and coral."
+  },
+  {
+    "word": "enchantment",
+    "phonetic": "/ɪnˈtʃæntmənt/",
+    "partOfSpeech": "noun",
+    "definition": "A feeling of great pleasure and wonder, almost as if caused by magic.",
+    "example": "Ralph felt a sense of enchantment as he explored the island."
+  },
+  {
+    "word": "typhoon",
+    "phonetic": "/taɪˈfuːn/",
+    "partOfSpeech": "noun",
+    "definition": "A very powerful tropical storm.",
+    "example": "A typhoon may have changed the shape of the beach."
+  },
+  {
+    "word": "specious",
+    "phonetic": "/ˈspiːʃəs/",
+    "partOfSpeech": "adjective",
+    "definition": "Seeming true or good at first but actually being false.",
+    "example": "Ralph had been fooled before by the specious appearance of deep water."
+  },
+  {
+    "word": "enviously",
+    "phonetic": "/ˈenviəsli/",
+    "partOfSpeech": "adverb",
+    "definition": "With a feeling of wanting something another person has.",
+    "example": "Piggy watched Ralph swimming enviously."
+  },
+  {
+    "word": "mirage",
+    "phonetic": "/mɪˈrɑːʒ/",
+    "partOfSpeech": "noun",
+    "definition": "Something that appears real from a distance but is caused by heat or light.",
+    "example": "The heat created a mirage above the beach."
+  },
+  {
+    "word": "effulgence",
+    "phonetic": "/ɪˈfʌldʒəns/",
+    "partOfSpeech": "noun",
+    "definition": "A very bright and powerful light.",
+    "example": "The lagoon shone with a blinding effulgence."
+  },
+  {
+    "word": "ill-omened",
+    "phonetic": "/ˌɪl ˈoʊmənd/",
+    "partOfSpeech": "adjective",
+    "definition": "Suggesting that something bad may happen.",
+    "example": "Piggy's ill-omened words worried Ralph."
+  },
+  {
+    "word": "decorous",
+    "phonetic": "/ˈdekərəs/",
+    "partOfSpeech": "adjective",
+    "definition": "Polite, proper, and well behaved.",
+    "example": "Piggy showed decorous excitement when he noticed the shell."
+  },
+  {
+    "word": "conch",
+    "phonetic": "/kɑːŋk/",
+    "partOfSpeech": "noun",
+    "definition": "A large sea shell that can be blown to make a loud sound.",
+    "example": "Ralph blew the conch to call the other boys."
+  },
+  {
+    "word": "phantoms",
+    "phonetic": "/ˈfæntəmz/",
+    "partOfSpeech": "noun",
+    "definition": "Ghost-like or imagined people, shapes, or images.",
+    "example": "The vivid phantoms of Ralph's daydreams filled his mind."
+  },
+  {
+    "word": "fulcrum",
+    "phonetic": "/ˈfʊlkrəm/",
+    "partOfSpeech": "noun",
+    "definition": "The fixed point that supports something being used as a lever.",
+    "example": "Ralph used one hand as a fulcrum to lift the shell."
+  },
+  {
+    "word": "embossed",
+    "phonetic": "/ɪmˈbɔːst/",
+    "partOfSpeech": "adjective",
+    "definition": "Decorated with a pattern that is raised above the surface.",
+    "example": "The conch had a delicate embossed pattern."
+  },
+  {
+    "word": "diaphragm",
+    "phonetic": "/ˈdaɪəfræm/",
+    "partOfSpeech": "noun",
+    "definition": "A muscle below the lungs that helps a person breathe.",
+    "example": "Ralph used his diaphragm to blow strongly into the conch."
+  },
+  {
+    "word": "strident",
+    "phonetic": "/ˈstraɪdənt/",
+    "partOfSpeech": "adjective",
+    "definition": "Very loud, sharp, and unpleasant to hear.",
+    "example": "The conch produced a strident blare."
+  },
+  {
+    "word": "stupendous",
+    "phonetic": "/stuːˈpendəs/",
+    "partOfSpeech": "adjective",
+    "definition": "Extremely large, impressive, or surprising.",
+    "example": "Ralph enjoyed making the stupendous sound of the conch."
+  },
+  {
+    "word": "incredulous",
+    "phonetic": "/ɪnˈkredʒələs/",
+    "partOfSpeech": "adjective",
+    "definition": "Unable or unwilling to believe something.",
+    "example": "The boys looked incredulous when they saw the identical twins."
+  },
+  {
+    "word": "eccentric",
+    "phonetic": "/ɪkˈsentrɪk/",
+    "partOfSpeech": "adjective",
+    "definition": "Strange or unusual in appearance or behavior.",
+    "example": "The choir boys were wearing eccentric clothing for the hot island."
+  },
+  {
+    "word": "intimidated",
+    "phonetic": "/ɪnˈtɪmɪdeɪtɪd/",
+    "partOfSpeech": "adjective",
+    "definition": "Made to feel frightened or less confident.",
+    "example": "Piggy felt intimidated by Jack and the uniformed choir."
+  },
+  {
+    "word": "furtive",
+    "phonetic": "/ˈfɜːrtɪv/",
+    "partOfSpeech": "adjective",
+    "definition": "Trying to avoid being noticed, usually because of secrecy or fear.",
+    "example": "Roger was a quiet and furtive boy."
+  },
+  {
+    "word": "arrogance",
+    "phonetic": "/ˈærəɡəns/",
+    "partOfSpeech": "noun",
+    "definition": "Behavior that shows you think you are better or more important than others.",
+    "example": "Jack's arrogance made him believe he should automatically be chief."
+  },
+  {
+    "word": "acclaim",
+    "phonetic": "/əˈkleɪm/",
+    "partOfSpeech": "noun",
+    "definition": "Strong public approval or support.",
+    "example": "The boys chose Ralph as chief by acclaim."
+  },
+  {
+    "word": "obscurely",
+    "phonetic": "/əbˈskjʊrli/",
+    "partOfSpeech": "adverb",
+    "definition": "In a way that is not clear or easy to understand.",
+    "example": "The boys were obscurely influenced by Ralph's possession of the conch."
+  },
+  {
+    "word": "mortification",
+    "phonetic": "/ˌmɔːrtɪfɪˈkeɪʃən/",
+    "partOfSpeech": "noun",
+    "definition": "A strong feeling of embarrassment or shame.",
+    "example": "Jack's face showed mortification when Ralph was chosen as chief."
+  },
+  {
+    "word": "suffusion",
+    "phonetic": "/səˈfjuːʒən/",
+    "partOfSpeech": "noun",
+    "definition": "The gradual spreading of a color, light, or feeling over something.",
+    "example": "The red suffusion slowly disappeared from Jack's face."
+  },
+  {
+    "word": "expedition",
+    "phonetic": "/ˌekspəˈdɪʃən/",
+    "partOfSpeech": "noun",
+    "definition": "An organized journey made for a particular purpose.",
+    "example": "Ralph, Jack, and Simon went on an expedition to explore the island."
+  },
+  {
+    "word": "humiliation",
+    "phonetic": "/hjuːˌmɪliˈeɪʃən/",
+    "partOfSpeech": "noun",
+    "definition": "A strong feeling of shame or embarrassment caused by being treated badly.",
+    "example": "Piggy felt humiliation after the other boys laughed at his nickname."
+  },
+  {
+    "word": "indignation",
+    "phonetic": "/ˌɪndɪɡˈneɪʃən/",
+    "partOfSpeech": "noun",
+    "definition": "Anger caused by something that seems unfair or wrong.",
+    "example": "Piggy's indignation slowly faded after Ralph apologized."
+  },
+  {
+    "word": "glamour",
+    "phonetic": "/ˈɡlæmər/",
+    "partOfSpeech": "noun",
+    "definition": "A special feeling of excitement, beauty, or attraction.",
+    "example": "The adventure gave the boys a feeling of glamour."
+  },
+  {
+    "word": "crags",
+    "phonetic": "/kræɡz/",
+    "partOfSpeech": "noun",
+    "definition": "High, steep, and rough rocks.",
+    "example": "The boys followed the jagged crags toward the mountain."
+  },
+  {
+    "word": "askew",
+    "phonetic": "/əˈskjuː/",
+    "partOfSpeech": "adjective",
+    "definition": "Not straight or level; turned to one side.",
+    "example": "Broken blocks of rock lay askew on the mountainside."
+  },
+  {
+    "word": "surmounted",
+    "phonetic": "/sərˈmaʊntɪd/",
+    "partOfSpeech": "verb",
+    "definition": "Was placed or stood on top of something.",
+    "example": "The cliff was surmounted by another large block of rock."
+  },
+  {
+    "word": "immured",
+    "phonetic": "/ɪˈmjʊrd/",
+    "partOfSpeech": "adjective",
+    "definition": "Trapped or completely surrounded inside something.",
+    "example": "The boys felt immured in the thick mass of jungle plants."
+  },
+  {
+    "word": "defiles",
+    "phonetic": "/dɪˈfaɪlz/",
+    "partOfSpeech": "noun",
+    "definition": "Narrow passages between mountains, rocks, or cliffs.",
+    "example": "The boys moved through narrow defiles on their way to the top."
+  },
+  {
+    "word": "enormity",
+    "phonetic": "/ɪˈnɔːrməti/",
+    "partOfSpeech": "noun",
+    "definition": "The extreme seriousness or terrible nature of an action.",
+    "example": "Jack suddenly understood the enormity of killing the piglet."
+  }
+]
