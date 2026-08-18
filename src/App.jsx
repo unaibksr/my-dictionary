@@ -10,11 +10,7 @@ function App() {
   const results = useMemo(() => {
     const q = query.trim().toLowerCase()
     if (!q) return sortedWords
-    return sortedWords.filter(
-      (entry) =>
-        entry.word.toLowerCase().includes(q) ||
-        entry.definition.toLowerCase().includes(q),
-    )
+    return sortedWords.filter((entry) => entry.word.toLowerCase().includes(q))
   }, [query])
 
   return (
@@ -38,7 +34,7 @@ function App() {
             type="search"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="Search words or meanings"
+            placeholder="Search words"
             aria-label="Search dictionary"
           />
           {query && (

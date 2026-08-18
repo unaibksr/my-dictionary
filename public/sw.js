@@ -1,14 +1,13 @@
-const VERSION = 'v1'
+const VERSION = 'v2'
 const CACHE = `dictionary-${VERSION}`
-const OFFLINE = '/index.html'
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
     caches
       .open(CACHE)
-      .then((cache) => cache.addAll(['/', '/manifest.webmanifest']))
-      .then(() => self.skipWaiting()),
+      .then((cache) => cache.addAll(['/']).catch(() => {})),
   )
+  self.skipWaiting()
 })
 
 self.addEventListener('activate', (event) => {
@@ -37,7 +36,7 @@ self.addEventListener('fetch', (event) => {
           caches.open(CACHE).then((cache) => cache.put('/', copy))
           return response
         })
-        .catch(() => caches.match('/').then((cached) => cached || caches.match(OFFLINE))),
+        .catch(() => caches.match('/')),
     )
     return
   }

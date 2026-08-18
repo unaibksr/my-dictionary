@@ -1,11 +1,11 @@
 {
+  "id": "/",
   "name": "My Dictionary",
   "short_name": "Dictionary",
   "description": "A custom dictionary of words and meanings.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
-  "orientation": "portrait-primary",
   "background_color": "#121218",
   "theme_color": "#121218",
   "icons": [
