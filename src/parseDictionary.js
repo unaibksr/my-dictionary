@@ -12,7 +12,9 @@ function normalizePos(input) {
 }
 
 function parseBlock(block) {
-  const line = block.replace(/\s*\n\s*/g, ' ').trim()
+  let line = block.replace(/\s*\n\s*/g, ' ').trim()
+  line = line.replace(/\*\*/g, '')
+  line = line.replace(/^[\s*+\-—–]+/, '')
   if (!line) return null
 
   const re =

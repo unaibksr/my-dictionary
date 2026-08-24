@@ -1168,5 +1168,17 @@
     "partOfSpeech": "verb",
     "definition": "Carried or taken from one place to another; in the story, made to feel as if taken somewhere through imagination.",
     "example": "Books transported Matilda into new worlds."
+  },
+  {
+    "word": "Enigmatical",
+    "partOfSpeech": "adjective",
+    "definition": "Hard to understand; full of secret meaning.",
+    "example": "He was an enigmatical personage, about whom little was known, except that he was a polished man of the world."
+  },
+  {
+    "word": "Pernicious",
+    "partOfSpeech": "adjective",
+    "definition": "Very bad, dangerous, or causing harm.",
+    "example": "The English capital had societies founded mainly for the purpose of abolishing pernicious insects."
   }
 ]
