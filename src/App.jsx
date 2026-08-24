@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import dictionary from './data/dictionary.json'
+import Admin from './Admin.jsx'
 
 function buildWords(entries) {
   const map = new Map()
@@ -23,7 +24,17 @@ function buildWords(entries) {
 
 const words = buildWords(dictionary)
 
-function App() {
+export default function App() {
+  const [view, setView] = useState('dictionary')
+
+  return view === 'admin' ? (
+    <Admin dictionary={dictionary} onBack={() => setView('dictionary')} />
+  ) : (
+    <DictionaryView onOpenAdmin={() => setView('admin')} />
+  )
+}
+
+function DictionaryView({ onOpenAdmin }) {
   const [query, setQuery] = useState('')
   const [selectedWord, setSelectedWord] = useState(null)
   const touchStart = useRef(null)
@@ -76,6 +87,9 @@ function App() {
           <h1 className="title">My Dictionary</h1>
           <p className="subtitle">{words.length} words</p>
         </div>
+        <button type="button" className="admin-link" onClick={onOpenAdmin}>
+          Admin
+        </button>
         <div className="search">
           <svg className="search-icon" viewBox="0 0 24 24" aria-hidden="true">
             <path
@@ -195,7 +209,9 @@ function Detail({ entry, onBack }) {
           <section className="sense" key={i}>
             {multiple && <span className="sense-num">{i + 1}</span>}
             <div className="sense-body">
-              <span className="pos badge">{sense.partOfSpeech}</span>
+              {sense.partOfSpeech && (
+                <span className="pos badge">{sense.partOfSpeech}</span>
+              )}
               <p className="definition">{sense.definition}</p>
               {sense.example && <p className="example">“{sense.example}”</p>}
             </div>
@@ -205,5 +221,3 @@ function Detail({ entry, onBack }) {
     </div>
   )
 }
-
-export default App
