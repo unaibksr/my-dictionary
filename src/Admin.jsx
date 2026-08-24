@@ -1,13 +1,15 @@
 import { useState } from 'react'
 import { parseEntries } from './parseDictionary.js'
+import { getMergedDictionary, saveEntries } from './dictionaryStore.js'
 
 const FIELDS = ['word', 'partOfSpeech', 'definition', 'example']
 
-export default function Admin({ dictionary, onBack }) {
+export default function Admin({ onBack }) {
   const [text, setText] = useState('')
   const [entries, setEntries] = useState([])
+  const [savedMsg, setSavedMsg] = useState('')
 
-  const existing = new Set(dictionary.map((e) => e.word.trim().toLowerCase()))
+  const existing = new Set(getMergedDictionary().map((e) => e.word.trim().toLowerCase()))
 
   const handleParse = () => {
     setEntries(parseEntries(text))
@@ -23,7 +25,12 @@ export default function Admin({ dictionary, onBack }) {
 
   const duplicates = entries.filter((e) => existing.has(e.word.trim().toLowerCase()))
 
-  const merged = [...dictionary, ...entries]
+  const merged = [...getMergedDictionary(), ...entries]
+
+  const handleSave = () => {
+    const added = saveEntries(entries)
+    setSavedMsg(added > 0 ? `Saved ${added} new word${added === 1 ? '' : 's'} to this browser.` : 'No new words to save.')
+  }
 
   const download = () => {
     const json = JSON.stringify(merged, null, 2) + '\n'
@@ -133,7 +140,10 @@ Benevolent: Well meaning and kindly. "She gave a benevolent smile."`}
             </div>
 
             <div className="admin-actions">
-              <button type="button" className="btn primary" onClick={download}>
+              <button type="button" className="btn primary" onClick={handleSave}>
+                Save to app
+              </button>
+              <button type="button" className="btn" onClick={download}>
                 Download dictionary.json
               </button>
               <button type="button" className="btn" onClick={copy}>
@@ -141,9 +151,13 @@ Benevolent: Well meaning and kindly. "She gave a benevolent smile."`}
               </button>
             </div>
 
+            {savedMsg && <p className="admin-count">{savedMsg}</p>}
+
             <p className="admin-note">
-              Replace <code>src/data/dictionary.json</code> with the downloaded file,
-              then commit and push to GitHub. Vercel redeploys automatically.
+              <strong>Save to app</strong> adds the parsed words to this browser
+              instantly (no rebuild needed). Use <strong>Download dictionary.json</strong>{' '}
+              to export the full merged list and replace{' '}
+              <code>src/data/dictionary.json</code> in the repo, then commit and push.
             </p>
           </>
         )}

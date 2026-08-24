@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
-import dictionary from './data/dictionary.json'
 import Admin from './Admin.jsx'
+import { getMergedDictionary } from './dictionaryStore.js'
 
 function buildWords(entries) {
   const map = new Map()
@@ -22,13 +22,11 @@ function buildWords(entries) {
   return [...map.values()].sort((a, b) => a.word.localeCompare(b.word))
 }
 
-const words = buildWords(dictionary)
-
 export default function App() {
   const [view, setView] = useState('dictionary')
 
   return view === 'admin' ? (
-    <Admin dictionary={dictionary} onBack={() => setView('dictionary')} />
+    <Admin onBack={() => setView('dictionary')} />
   ) : (
     <DictionaryView onOpenAdmin={() => setView('admin')} />
   )
@@ -38,6 +36,8 @@ function DictionaryView({ onOpenAdmin }) {
   const [query, setQuery] = useState('')
   const [selectedWord, setSelectedWord] = useState(null)
   const touchStart = useRef(null)
+
+  const words = useMemo(() => buildWords(getMergedDictionary()), [])
 
   const goBack = () => {
     setSelectedWord(null)
@@ -78,7 +78,7 @@ function DictionaryView({ onOpenAdmin }) {
     const q = query.trim().toLowerCase()
     if (!q) return words
     return words.filter((entry) => entry.word.toLowerCase().includes(q))
-  }, [query])
+  }, [query, words])
 
   return (
     <div className="app">
