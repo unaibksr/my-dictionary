@@ -54,19 +54,56 @@ function parseBlock(block) {
   return { word, partOfSpeech: pos, definition, example }
 }
 
+function isStartLine(line) {
+  const t = line.trimStart()
+  return (
+    /^[*+•-]\s+/.test(line) ||
+    /^\d+[.)]\s+/.test(line) ||
+    /^#+\s+/.test(line) ||
+    t.startsWith('**')
+  )
+}
+
 export function parseEntries(text) {
   const raw = (text || '').trim()
   if (!raw) return []
-  let blocks = raw
-    .split(/\n\s*\n/)
-    .map((b) => b.trim())
-    .filter(Boolean)
-  if (blocks.length <= 1) {
-    blocks = raw.split(/\r?\n/).map((b) => b.trim()).filter(Boolean)
+
+  const lines = raw.split(/\r?\n/)
+  let chunks
+
+  if (lines.some((l) => isStartLine(l))) {
+    chunks = []
+    let current = null
+    for (const line of lines) {
+      const trimmed = line.trim()
+      if (!trimmed) {
+        if (current) {
+          chunks.push(current)
+          current = null
+        }
+        continue
+      }
+      if (isStartLine(line)) {
+        if (current) chunks.push(current)
+        current = trimmed
+      } else {
+        current = current ? current + ' ' + trimmed : trimmed
+      }
+    }
+    if (current) chunks.push(current)
+  } else {
+    chunks = raw
+      .split(/\n\s*\n/)
+      .map((b) => b.trim())
+      .filter(Boolean)
+    if (chunks.length <= 1) {
+      chunks = raw.split(/\r?\n/).map((b) => b.trim()).filter(Boolean)
+    }
   }
+
   const entries = []
-  for (const block of blocks) {
-    const entry = parseBlock(block)
+  for (const chunk of chunks) {
+    const entry = parseBlock(chunk)
     if (entry && entry.word && entry.definition) entries.push(entry)
   }
   return entries
