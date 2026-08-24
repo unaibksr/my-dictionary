@@ -583,3 +583,30 @@ button {
   cursor: pointer;
   flex-shrink: 0;
 }
+
+.admin-token {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 13px;
+  color: var(--text-soft);
+}
+
+.admin-token input {
+  padding: 10px 12px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  color: var(--text);
+  font-size: 14px;
+  outline: none;
+}
+
+.admin-token input:focus {
+  border-color: var(--accent);
+}
+
+.btn.primary:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

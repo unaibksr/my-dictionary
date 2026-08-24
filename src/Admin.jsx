@@ -2,14 +2,47 @@ import { useState } from 'react'
 import { parseEntries } from './parseDictionary.js'
 import { getMergedDictionary, saveEntries } from './dictionaryStore.js'
 
+const REPO = 'unaibksr/my-dictionary'
+const FILE_PATH = 'src/data/dictionary.json'
 const FIELDS = ['word', 'partOfSpeech', 'definition', 'example']
+
+function toBase64(str) {
+  const bytes = new TextEncoder().encode(str)
+  let bin = ''
+  bytes.forEach((b) => {
+    bin += String.fromCharCode(b)
+  })
+  return btoa(bin)
+}
+
+function mergeEntries(current, additions) {
+  const map = new Map()
+  for (const e of current) map.set(e.word.trim().toLowerCase(), e)
+  for (const a of additions) {
+    if (!a.word || !a.definition) continue
+    map.set(a.word.trim().toLowerCase(), {
+      word: a.word,
+      partOfSpeech: a.partOfSpeech,
+      definition: a.definition,
+      example: a.example,
+    })
+  }
+  return [...map.values()]
+}
 
 export default function Admin({ onBack }) {
   const [text, setText] = useState('')
   const [entries, setEntries] = useState([])
+  const [token, setToken] = useState(() => sessionStorage.getItem('gh-token') || '')
   const [savedMsg, setSavedMsg] = useState('')
 
   const existing = new Set(getMergedDictionary().map((e) => e.word.trim().toLowerCase()))
+
+  const updateToken = (value) => {
+    setToken(value)
+    if (value) sessionStorage.setItem('gh-token', value)
+    else sessionStorage.removeItem('gh-token')
+  }
 
   const handleParse = () => {
     setEntries(parseEntries(text))
@@ -23,17 +56,8 @@ export default function Admin({ onBack }) {
     setEntries((es) => es.filter((_, idx) => idx !== i))
   }
 
-  const duplicates = entries.filter((e) => existing.has(e.word.trim().toLowerCase()))
-
-  const merged = [...getMergedDictionary(), ...entries]
-
-  const handleSave = () => {
-    const added = saveEntries(entries)
-    setSavedMsg(added > 0 ? `Saved ${added} new word${added === 1 ? '' : 's'} to this browser.` : 'No new words to save.')
-  }
-
   const download = () => {
-    const json = JSON.stringify(merged, null, 2) + '\n'
+    const json = JSON.stringify([...getMergedDictionary(), ...entries], null, 2) + '\n'
     const blob = new Blob([json], { type: 'application/json' })
     const url = URL.createObjectURL(blob)
     const a = document.createElement('a')
@@ -44,11 +68,54 @@ export default function Admin({ onBack }) {
   }
 
   const copy = async () => {
-    const json = JSON.stringify(merged, null, 2) + '\n'
+    const json = JSON.stringify([...getMergedDictionary(), ...entries], null, 2) + '\n'
     try {
       await navigator.clipboard.writeText(json)
     } catch {
       window.prompt('Copy the JSON below:', json)
+    }
+  }
+
+  const pushToGitHub = async (arr) => {
+    const api = `https://api.github.com/repos/${REPO}/contents/${FILE_PATH}`
+    const headers = {
+      Authorization: `Bearer ${token}`,
+      Accept: 'application/vnd.github+json',
+    }
+    const get = await fetch(api, { headers })
+    if (!get.ok) throw new Error(`read failed (${get.status})`)
+    const data = await get.json()
+    const current = JSON.parse(atob(data.content))
+    const merged = mergeEntries(current, arr)
+    const put = await fetch(api, {
+      method: 'PUT',
+      headers: { ...headers, 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        message: 'Update dictionary from admin panel',
+        content: toBase64(JSON.stringify(merged, null, 2) + '\n'),
+        sha: data.sha,
+        branch: 'main',
+      }),
+    })
+    if (!put.ok) throw new Error(`write failed (${put.status})`)
+  }
+
+  const handleSave = async () => {
+    if (!entries.length) return
+    const added = saveEntries(entries)
+    if (!token) {
+      setSavedMsg(
+        added > 0
+          ? `Saved ${added} word${added === 1 ? '' : 's'} to this browser. Add a GitHub token to also update the repo file.`
+          : 'No new words to save. Add a GitHub token to update the repo file.',
+      )
+      return
+    }
+    try {
+      await pushToGitHub([...getMergedDictionary(), ...entries])
+      setSavedMsg('Updated dictionary.json on GitHub — Vercel will redeploy shortly.')
+    } catch (e) {
+      setSavedMsg(`Saved to browser, but GitHub update failed: ${e.message}`)
     }
   }
 
@@ -72,6 +139,17 @@ export default function Admin({ onBack }) {
       </header>
 
       <div className="admin-body">
+        <label className="admin-token">
+          GitHub token (repo scope, stored only in this session)
+          <input
+            type="password"
+            value={token}
+            onChange={(e) => updateToken(e.target.value)}
+            placeholder="ghp_… or fine-grained token with contents:write"
+            autoComplete="off"
+          />
+        </label>
+
         <p className="admin-help">
           Paste words with meanings and example sentences, one per line or blank-line
           separated. Format:
@@ -90,21 +168,22 @@ Benevolent: Well meaning and kindly. "She gave a benevolent smile."`}
         />
 
         <div className="admin-actions">
-          <button type="button" className="btn primary" onClick={handleParse}>
+          <button type="button" className="btn" onClick={handleParse}>
             Parse text
           </button>
+          <button type="button" className="btn primary" onClick={handleSave} disabled={!entries.length}>
+            Save to dictionary.json
+          </button>
         </div>
+
+        {savedMsg && <p className="admin-count">{savedMsg}</p>}
 
         {entries.length > 0 && (
           <>
             <p className="admin-count">
               Parsed {entries.length} {entries.length === 1 ? 'entry' : 'entries'}
-              {duplicates.length > 0 && (
-                <span className="admin-warn">
-                  {' '}
-                  ({duplicates.length} already exist — will be added as extra
-                  definitions)
-                </span>
+              {existing.size > 0 && entries.some((e) => existing.has(e.word.trim().toLowerCase())) && (
+                <span className="admin-warn"> (some already exist — will be overwritten)</span>
               )}
             </p>
 
@@ -140,9 +219,6 @@ Benevolent: Well meaning and kindly. "She gave a benevolent smile."`}
             </div>
 
             <div className="admin-actions">
-              <button type="button" className="btn primary" onClick={handleSave}>
-                Save to app
-              </button>
               <button type="button" className="btn" onClick={download}>
                 Download dictionary.json
               </button>
@@ -150,15 +226,6 @@ Benevolent: Well meaning and kindly. "She gave a benevolent smile."`}
                 Copy JSON
               </button>
             </div>
-
-            {savedMsg && <p className="admin-count">{savedMsg}</p>}
-
-            <p className="admin-note">
-              <strong>Save to app</strong> adds the parsed words to this browser
-              instantly (no rebuild needed). Use <strong>Download dictionary.json</strong>{' '}
-              to export the full merged list and replace{' '}
-              <code>src/data/dictionary.json</code> in the repo, then commit and push.
-            </p>
           </>
         )}
       </div>
